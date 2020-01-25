@@ -7,7 +7,7 @@
 
 .. contents::
 
-The complex numbers `\mathbb{C}`
+The Complex Numbers `\mathbb{C}`
 --------------------------------
 
 The real numbers (:lnk:`r.ci`) are more than just a count.
@@ -105,8 +105,8 @@ Further properties:
 
   - `arg(\frac{z_1}{z_2})=arg(z_1)-arg(z_2)`
 
-Application of `\mathbb{C}` 
-...........................
+Applications for `\mathbb{C}`
+-----------------------------
 
 Since `\mathbb{C}` is a extension of `\mathbb{R}`, 
 one can do everything with `\mathbb{C}` that you can do with `\mathbb{R}`.

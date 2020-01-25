@@ -52,7 +52,7 @@ und `e^x` in der Analysis und Vergleich ergibt die **Eulersche Formel**:
 
 - :inl:`r.cy` 
 
-- `z=re^{i\varphi}` heißt dritte **Normaldarstellung** der komplexen Zahl.
+`z=re^{i\varphi}` ist die **Normaldarstellung** komplexer Zahlen.
 
 Von `\sin` und `\cos` weiß man, dass sie die Periode `2\pi` haben, so auch `e^{i\varphi}`.
 Die n-te Wurzel teilt alle Perioden bis `2n\pi` auf unter `2\pi` und somit zu n
@@ -101,8 +101,8 @@ Weiteres:
   - `arg(\frac{z_1}{z_2})=arg(z_1)-arg(z_2)`
 
 
-Anwendung von `\mathbb{C}` 
-...........................
+Anwendung von `\mathbb{C}`
+--------------------------
 
 Da `\mathbb{C}` eine Erweiterung von `\mathbb{R}` darstellt, 
 kann man alles mit `\mathbb{C}` machen, was man mit `\mathbb{R}` macht.

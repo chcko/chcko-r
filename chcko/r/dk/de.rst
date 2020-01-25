@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "Mathematik/Funktionen/exponentiell"
-    %kind = kinda["Übungen"]
+    %kind = kinda["Texte"]
     %level = 11
     <!-- html -->
 
@@ -91,7 +91,7 @@ Jedes Bit wird zur bestehenden Menge von Wertekombinationen "dazuverzinst".
 Das Informationmaß einer realen Variablen der Größe `C` ist die Anzahl
 `n=\log_2 C` Bits, die notwendig sind, damit wir auf `C` Kombinationen kommen.
 
-.. admonition:: Vergleich mit welcher anderen Variablen?
+.. admonition:: Vergleich mit welcher anderen Variable?
 
    Statt Bits könnten wir ebensogut die betrachtete Variable selbst nehmen,
    weil diese ist physikalisch present. Kombinationen sind aber auch

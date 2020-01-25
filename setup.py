@@ -9,8 +9,6 @@ def main():
     readme_filename = os.path.join(package_root, "README.rst")
     with io.open(readme_filename, encoding="utf-8") as readme_file:
         readme = readme_file.read()
-    dependencies = ['chcko']
-    packages=['chcko.r']
     setuptools.setup(
         name="chcko-r",
         version = "0.0.1",
@@ -32,11 +30,11 @@ def main():
             'Topic :: Education',
             'Topic :: Education :: Computer Aided Instruction (CAI)'
         ],
-        packages=packages,
-        namespace_packages=["chcko"],
-        install_requires=dependencies,
-        extras_require={},
+        packages=setuptools.find_namespace_packages(),
         include_package_data=True,
+        namespace_packages=["chcko"],
+        install_requires=["chcko"],
+        extras_require={},
         zip_safe=False,
     )
 
