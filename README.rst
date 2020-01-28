@@ -11,4 +11,11 @@ Image files are compied to ``chcko/_images``.
 They need to have a globally unique name.
 Use ``<author_id>_<problem_id>_xxx`` scheme, e.g ``.. texfigure:: r_dg_c1.tex``.
 
+To run content::
+
+    pip install --user chcko
+    cd chcko-r
+    runchcko
+
+
 WORK IN PROGRESS
