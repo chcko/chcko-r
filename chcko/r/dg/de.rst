@@ -15,26 +15,26 @@ Wir ziehen dazu einen Schaltkreis aus
 `Op Amps for EveryOne (5-10) <http://www.ti.com/lit/an/slod006b/slod006b.pdf>`_.
 heran.
 
-.. texfigure:: c1.tex
+.. texfigure:: r_dg_c1.tex
       :align: center
 
 Das Eingangssignal ist gegenüber Erde. Wir zeichnen die Schaltung neu, um das widerzuspiegeln.
 
-.. texfigure:: c2.tex
+.. texfigure:: r_dg_c2.tex
       :align: center
 
 Wir suchen `G=\frac{V_o}{V_i}`.  
 `V_o` ist die Spannung beim rechten Widerstand. Wir werden dort das Thevenin-Äquivalent berechnen.
 
 
-.. texfigure:: c3.tex
+.. texfigure:: r_dg_c3.tex
       :align: center
 
 Wir finden die Ströme mittels der Kirchhoff'schen Regeln. 
 Es gibt zwei Schleifen, wo Strom fließt.
 Es gibt keinen Strom bei dem Widerstand, wo wir den Stromkreis geöffnet haben.
 
-.. texfigure:: c4.tex
+.. texfigure:: r_dg_c4.tex
       :align: center
 
 Die resultierenden Gleichungen sind
@@ -58,12 +58,12 @@ Bei die kleine Schleife bei `V_{th}` berechnen wir mit den bekannten Strömen
 Als nächstes brauchen wir die Thevenin-Impedanz. Dafür entfernen wir `V_i`
 und berechnen die Impedanz wie sie von `V_{th}` aus gesehen wird.
 
-.. texfigure:: c5.tex
+.. texfigure:: r_dg_c5.tex
       :align: center
 
 Wir zeichnen die Schaltung neu, um besser zu sehen, was parallel und was seriell ist.
 
-.. texfigure:: c6.tex
+.. texfigure:: r_dg_c6.tex
       :align: center
 
 Dann erhalten wir

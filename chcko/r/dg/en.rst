@@ -15,26 +15,26 @@ Our starting circuit is the following from
 `Op Amps for EveryOne (5-10) <http://www.ti.com/lit/an/slod006b/slod006b.pdf>`_.
 
 
-.. texfigure:: c1.tex
+.. texfigure:: r_dg_c1.tex
       :align: center
 
 The input voltage is against the ground. We redraw the circuit to reflect this:
 
-.. texfigure:: c2.tex
+.. texfigure:: r_dg_c2.tex
       :align: center
 
 We want to find `G=\frac{V_o}{V_i}`.  
 `V_o` is the voltage at the rightmost R. We will find the Thevenin equivalent there.
 
 
-.. texfigure:: c3.tex
+.. texfigure:: r_dg_c3.tex
       :align: center
 
 Next we find the currents using Kirchhoff's current law (KCL) and voltage law (KVL).
 There are two loops where current flows. 
 There is no current at the R at which we have made an open circuit
 
-.. texfigure:: c4.tex
+.. texfigure:: r_dg_c4.tex
       :align: center
 
 The resulting equations are
@@ -58,12 +58,12 @@ The small loop at `V_{th}` with the now known currents can be used to calculate
 Next we will need the Thevenin impedance equivalent. For this we remove the source `V_i`
 and calculate the impedance as seen from `V_{th}`.
 
-.. texfigure:: c5.tex
+.. texfigure:: r_dg_c5.tex
       :align: center
 
 We redraw to see a little better, what is parallel and what is serial
 
-.. texfigure:: c6.tex
+.. texfigure:: r_dg_c6.tex
       :align: center
 
 With this we get
