@@ -3,7 +3,7 @@
 check:
 	restview --long-description --strict
 
-dist: man
+dist:
 	sudo python setup.py bdist_wheel
 
 up:
