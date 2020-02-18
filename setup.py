@@ -11,7 +11,7 @@ def main():
         readme = readme_file.read()
     setuptools.setup(
         name="chcko-r",
-        version = "0.0.1",
+        version = "0.1.0",
         description="A random mix of exercises for chcko",
         long_description=readme,
         long_description_content_type="text/x-rst",
@@ -19,7 +19,7 @@ def main():
         author_email="roland.puntaier@gmail.com",
         url="https://github.com/chcko/chcko-r",
         classifiers=[
-            "Development Status :: 2 - Pre-Alpha",
+            "Development Status :: 4 - Beta",
             "Intended Audience :: Developers",
             "Programming Language :: Python",
             "Programming Language :: Python :: 3.8",
@@ -33,7 +33,7 @@ def main():
         packages=setuptools.find_namespace_packages(),
         include_package_data=True,
         namespace_packages=["chcko"],
-        install_requires=["chcko"],
+        install_requires=[],#don't ["chcko"], because on gcloud chcko is uploaded and not installed
         extras_require={},
         zip_safe=False,
     )

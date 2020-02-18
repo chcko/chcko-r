@@ -7,15 +7,26 @@ but now a separate package within the ``chcko`` namespace.
 
 ``chko-r`` is an example of content for ``chcko``.
 
-Image files are compied to ``chcko/_images``.
+Image files are compiled to ``/chcko-r/chcko/_images``,
+and copied to ``chcko/chcko/_images`` common to all content when installing.
 They need to have a globally unique name.
 Use ``<author_id>_<problem_id>_xxx`` scheme, e.g ``.. texfigure:: r_dg_c1.tex``.
 
-To run content::
+Depends on ``chcko``, which is not automatically installed::
 
     pip install --user chcko
-    cd chcko-r
+
+Prepare content::
+
+    cd ~/mine/chcko-r
+    # works also in sub-folders:
+    doit -kd. html
+
+    cd ~/mine/chcko-r
+    doit initdb
+
+To run content::
+
+    cd ~/mine/chcko-r
     runchcko
 
-
-WORK IN PROGRESS
