@@ -2,27 +2,32 @@ import os
 import io
 import setuptools
 from pathlib import Path
-import shutil
 
 package_root = os.path.abspath(os.path.dirname(__file__))
 
-from doit.cmd_base import DodoTaskLoader
-from doit.doit_cmd import DoitMain
-def doit_run():
-    loader = DodoTaskLoader()
-    loader.setup(
-            dict(
-            dodoFile=os.path.join(package_root,'dodo.py')
-            ,cwdPath=os.path.join(package_root,'chcko','r')
-            ,seek_file=True
-                 ))
-    DoitMain(loader).run(['-kd.', 'html'])
-    DoitMain(loader).run(['-kd.', 'initdb'])
+# # maybe not all installed in system
+# # done in Makefile
+# from doit.cmd_base import DodoTaskLoader
+# from doit.doit_cmd import DoitMain
+# def doit_run():
+#     loader = DodoTaskLoader()
+#     loader.setup(
+#             dict(
+#             dodoFile=os.path.join(package_root,'dodo.py')
+#             ,cwdPath=os.path.join(package_root,'chcko','r')
+#             ,seek_file=True
+#                  ))
+#     DoitMain(loader).run(['-kd.', 'html'])
+#     DoitMain(loader).run(['-kd.', 'initdb'])
 
 def main():
-    doit_run()
+    # doit_run()
     os.chdir(package_root)
-    shutil.rmtree('build')
+    try:
+        import shutil
+        shutil.rmtree('build')
+    except:
+        pass
     proot = Path(package_root)
     readme_filename = os.path.join(package_root, "README.rst")
     with io.open(readme_filename, encoding="utf-8") as readme_file:

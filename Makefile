@@ -4,6 +4,10 @@ check:
 	restview --long-description --strict
 
 dist:
+	cd chcko/r
+	doit -kd. html
+	doit -kd. initdb
+	cd ../..
 	sudo python setup.py bdist_wheel
 
 up:

@@ -14,21 +14,18 @@ which is not automatically installed::
 
 Prepare content::
 
-    cd ~/mine/chcko-r
-    # works also in sub-folders:
+    cd chcko-r/chcko/r
     doit -kd. html
-
-    cd ~/mine/chcko-r
-    doit initdb
+    doit -kd. initdb
 
 To run content locally::
 
-    cd ~/mine/chcko-r
+    cd chcko-r
     runchcko
 
 Install content::
 
-    cd ~/mine/chcko-r
+    cd chcko-r
     pip install --user .
 
 Image files are compiled to ``/chcko-r/chcko/_images``,
