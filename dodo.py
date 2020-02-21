@@ -28,7 +28,7 @@ task_included is internal.
 import sys
 import os
 
-chckouninstalled = os.path.normpath('../chcko')
+chckouninstalled = os.path.normpath(os.path.join(os.path.dirname(__file__),'..','chcko'))
 if os.path.exists(chckouninstalled):
     sys.path.insert(0,chckouninstalled)
 

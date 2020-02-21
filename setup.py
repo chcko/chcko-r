@@ -2,16 +2,34 @@ import os
 import io
 import setuptools
 from pathlib import Path
+import shutil
+
+package_root = os.path.abspath(os.path.dirname(__file__))
+
+from doit.cmd_base import DodoTaskLoader
+from doit.doit_cmd import DoitMain
+def doit_run():
+    loader = DodoTaskLoader()
+    loader.setup(
+            dict(
+            dodoFile=os.path.join(package_root,'dodo.py')
+            ,cwdPath=os.path.join(package_root,'chcko','r')
+            ,seek_file=True
+                 ))
+    DoitMain(loader).run(['-kd.', 'html'])
+    DoitMain(loader).run(['-kd.', 'initdb'])
 
 def main():
-    package_root = os.path.abspath(os.path.dirname(__file__))
+    doit_run()
+    os.chdir(package_root)
+    shutil.rmtree('build')
     proot = Path(package_root)
     readme_filename = os.path.join(package_root, "README.rst")
     with io.open(readme_filename, encoding="utf-8") as readme_file:
         readme = readme_file.read()
     setuptools.setup(
         name="chcko-r",
-        version = "0.1.0",
+        version = "0.1.1",
         description="A random mix of exercises for chcko",
         long_description=readme,
         long_description_content_type="text/x-rst",
