@@ -12,13 +12,13 @@ which is not automatically installed::
 
     pip install --user chcko
 
+There is no need to install ``chcko``, if ``chcko`` is parallel to ``chcko-r``.
+
 Prepare content::
 
-    cd chcko-r/chcko/r
-    doit -kd. html
-    doit -kd. initdb
+    make render
 
-To run content locally::
+To run content locally (chcko needs to be installed)::
 
     cd chcko-r
     runchcko

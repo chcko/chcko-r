@@ -1,13 +1,14 @@
-.PHONY: check dist up
+.PHONY: check render dist up
 
 check:
 	restview --long-description --strict
 
-dist:
+render:
 	cd chcko/r
 	doit -kd. html
 	doit -kd. initdb
-	cd ../..
+
+dist:
 	sudo python setup.py bdist_wheel
 
 up:
