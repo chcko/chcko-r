@@ -11,7 +11,7 @@
 Structure Analysis Problem solved with Python
 =============================================
 
-This pin jointed truss is the initial example take from `akabaila`_
+This pin jointed truss is the initial example taken from `akabaila`_
 
 .. _akabaila: http://akabaila.pcug.org.au/StructuralAnalysis.pdf
 
