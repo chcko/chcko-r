@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 # generate via ``doit -kd. initdb``
 def populate_index(index_add):
-    index_add("r.dd", "en", "19", "0",
-        "try in class")
-    index_add("r.dd", "de", "19", "0",
-        "Versuch in der Klasse")
     index_add("r.c", "de", "0", "11",
         "Mathematik/Finanz/Rentenrechnung/unterjährig")
     index_add("r.c", "en", "0", "11",
@@ -33,10 +29,6 @@ def populate_index(index_add):
         "maths/numbers/C")
     index_add("r.di", "de", "1", "9",
         "Mathematik/Zahlen/C")
-    index_add("r.da", "en", "19", "0",
-        "ideas")
-    index_add("r.da", "de", "19", "0",
-        "Ideen")
     index_add("r.y", "de", "0", "9",
         "Mathematik/Potenzen/Doppelbrüche")
     index_add("r.y", "en", "0", "9",
@@ -85,10 +77,6 @@ def populate_index(index_add):
         "maths/entropy")
     index_add("r.cv", "de", "1", "12",
         "Mathematik/Entropie")
-    index_add("r.cz", "en", "19", "0",
-        "purpose")
-    index_add("r.cz", "de", "19", "0",
-        "Ziele")
     index_add("r.ce", "en", "1", "10",
         "maths/functions/log")
     index_add("r.ce", "de", "1", "10",
@@ -177,10 +165,6 @@ def populate_index(index_add):
         "Mathematik/Log/mit Zahlen")
     index_add("r.p", "en", "0", "10",
         "maths/log/with numbers")
-    index_add("r.dc", "en", "19", "0",
-        "participate")
-    index_add("r.dc", "de", "19", "0",
-        "mitmachen")
     index_add("r.bk", "de", "0", "11",
         "Mathematik/Vektoren/Matrix/Torten")
     index_add("r.bk", "en", "0", "11",
@@ -201,10 +185,6 @@ def populate_index(index_add):
         "maths/morphisms")
     index_add("r.cs", "de", "1", "10",
         "Mathematik/Morphismen")
-    index_add("r.de", "en", "19", "0",
-        "query rights")
-    index_add("r.de", "de", "19", "0",
-        "Abfrageberechtigungen")
     index_add("r.bu", "de", "0", "9",
         "Mathematik/Lineare Gleichung/mit ganzen Zahlen")
     index_add("r.bu", "en", "0", "9",
@@ -241,10 +221,6 @@ def populate_index(index_add):
         "maths/finance/interest")
     index_add("r.cd", "de", "1", "10",
         "Mathematik/Finanz/Zinsen")
-    index_add("r.df", "en", "19", "0",
-        "history")
-    index_add("r.df", "de", "19", "0",
-        "Historisches")
     index_add("r.cj", "en", "1", "9",
         "maths/numbers/combination with operations")
     index_add("r.cj", "de", "1", "9",
@@ -295,10 +271,6 @@ def populate_index(index_add):
         "Mathematik/Vektoren/Parallelogramm")
     index_add("r.bv", "en", "0", "11",
         "maths/vectors/parallelogram")
-    index_add("r.db", "en", "19", "0",
-        "queries")
-    index_add("r.db", "de", "19", "0",
-        "URL-Abfragen")
     index_add("r.l", "de", "0", "12",
         "Mathematik/Integral/bestimmtes/quadratische Funktion")
     index_add("r.l", "en", "0", "12",
