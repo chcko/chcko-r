@@ -39,18 +39,7 @@ Image files need to have globally unique names across ``chcko-<author_id>`` pack
 Use ``<author_id>_<problem_id>_xxx`` scheme,
 e.g ``.. texfigure:: r_dg_c1.tex``.
 
-.. _`bottle`: https://bottlepy.org/docs/dev/
-.. _`GCP`: https://en.wikipedia.org/wiki/Google_Cloud_Platform
-.. _`ndb`: https://github.com/googleapis/python-ndb
-.. _`SqlAlchemy`: https://github.com/sqlalchemy/sqlalchemy
 .. _`chcko`: https://github.com/chcko/chcko
 .. _`chcko-r`: https://github.com/chcko/chcko-r
-.. _`mamchecker`: https://github.com/mamchecker/mamchecker
-.. _`languages.py`: https://github.com/chcko/chcko/blob/master/chcko/chcko/languages.py
-.. _`pypi`: https://pypi.org/
-.. _`rst`: https://docutils.sourceforge.io/docs/user/rst/quickref.html
-.. _`sphinx`: https://www.sphinx-doc.org/en/master/
-.. _`latex`: https://www.latex-project.org/get/
-.. _`text editor`: https://www.slant.co/topics/3418/~best-open-source-programming-text-editors
 
 
