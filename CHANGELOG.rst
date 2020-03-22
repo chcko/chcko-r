@@ -7,6 +7,11 @@ TODO
 
 - add, organize and link content
 
+0.1.3
+=====
+
+- removed meta texts
+
 0.1.2
 =====
 
