@@ -4,7 +4,7 @@
     %kind = kinda["texts"]
     %level = 11
     <!-- html -->
-    
+
 Vectors
 -------
 
@@ -19,7 +19,7 @@ What is a Vector?
     The units are the **unit vectors**. Together they form the **basis**
     and are therefore also called **basis vectors**.
 
-    The choice from one variable is a vector, too, a **one-dimensional** vector. 
+    The choice from one variable is a vector, too, a **one-dimensional** vector.
 
     The whole vector can be multiplied by a number, the **scalar**, and yields a vector again.
 
@@ -36,46 +36,20 @@ Coordinate Transformation
 
 A matrix transforms a vector from one coordinate system to a vector of another
 coordinate system.  Therefore we learn first about vectors. The matrix comes
-into play, when we want to change from one coordinate system to another.  
+into play, when we want to change from one coordinate system to another.
 
-Example
-
-    If we see the ingredients of a set of cake recipes as vector space, then
-    every cake `z` is a vector of the *ingredient vector space*, i.e. we
-    independently choose (value `z_i`) from each ingredient (variable `i`) (0
-    for not used at all).
-
-    If we only look at the cakes, then a choice from them is a vector `k`
-    in the *cake vector space*. Every `k_j` is the number of cakes of kind `j`.
-
-    When going from the cakes to the ingredients mathematically one does a
-    coordinate transformation. To get the total amount of ingredient `z_i` one
-    needs to multiply the number of every cake `k_j` with the amount of
-    ingredient `i` for that cake. This is a matrix multiplication.
-    
-    `z = ZK \cdot k = \sum_j ZK_{ij}k_j`
-
-    In `ZK` every column is a recipe, i.e. the ingredients (**components**) for cake `j`.
-
-    To obtain the price `p` in the *price vector space*, i.e. what is the cost
-    of all ingredients for a set of cakes, we multiply again
-
-    `p = PZ \cdot z = PZ_{1i} z_i`
-
-    `PZ` is a matrix with one row. The number of rows is the dimension of the
-    target vector space.
-
+Example :inline:`r.a0`
 
 How do we notate vectors?
 ..........................
 
-- As column of numbers `\vec{x}=\begin{pmatrix}x_1\\x_2\end{pmatrix}`
+- As column of numbers `\vec{x}=\begin{pmatrix}x_1\\x_2\end{pmatrix}`.
   The unit vectors, i.e. what the rows mean, one specifies separately.
-- Written explicitly with units: `\vec{x}=x_1\vec{e_1}+x_2\vec{e_2}` 
+- Written explicitly with units: `\vec{x}=x_1\vec{e_1}+x_2\vec{e_2}`
   (3 milk + 5 butter). If without arrow, then the superscript index
   normally mean the scalar (number) and the subscript index the unit
-  (dimension, direction): `x=x^1e_1+x^2e_2`. 
-  
+  (dimension, direction): `x=x^1e_1+x^2e_2`.
+
 Notation is not the vector itself.
 
 Vector Operations
@@ -95,17 +69,17 @@ Vector Operations
     \draw[-,thin] (A) -- (C) node [midway,right]{$x_{\perp y}$};
 
 
-Apart from addition there are to other important vector operations.
+Apart from addition there are two other important vector operations.
 
 - **dot-product (scalar product)**. It yields a number (scalar) that represents the dependence
-  or with how much independence one can choose values. 
-  
+  or with how little independence one can choose values.
+
   .. math:: \vec{x}\vec{y}=x_yy=y_xx=x_1y_1+x_2y_2
 
-  - Orthogonal vectors result in 0.
+  - Orthogonal vectors result in 0 (no dependence).
 
   - For parallel vectors it is the product of the lengths.
-    The length of a vector `\vec{x}` is thus `\sqrt{\vec{x}\vec{x}}` 
+    The length of a vector `\vec{x}` is thus `\sqrt{\vec{x}\vec{x}}`
     The length is denoted as `|\vec{x}|` or simply `x`.
 
   - `\vec{x_o}=\frac{\vec{x}}{x}` is the unit vector (length 1 in the direction of `\vec{x}`)
@@ -113,7 +87,7 @@ Apart from addition there are to other important vector operations.
   - The dot-product defines an angle between two vectors: `\cos\alpha = \frac{\vec{x}\vec{y}}{xy}`
 
 
-- **Vector product or cross product**. For a dimension `= 3` it produces 
+- **Vector product or cross product**. For a dimension `= 3` it produces
   a vector orthogonal to `\vec{x}` and `\vec{y}` and of length equal to the area
   of the parallelogram created by the two vectors.
 
@@ -129,12 +103,12 @@ Apart from addition there are to other important vector operations.
   `\vec{x}\times\vec{y}` is different from 0. It is
   `\begin{vmatrix}
   x_1 & x_2 \\
-  y_1 & y_2 
+  y_1 & y_2
   \end{vmatrix}=
   \begin{vmatrix}
   x_1 & y_1 \\
-  x_2 & y_2 
-  \end{vmatrix}` 
+  x_2 & y_2
+  \end{vmatrix}`.
   Compare this to: Determinant of 3 vectors in the 3D space are the volume of the parallelepiped
   created by the three vectors.
 

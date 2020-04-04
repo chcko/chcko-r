@@ -2,7 +2,7 @@
 
     %path = "physics/circuits/thevenin"
     %kind = kinda["examples"]
-    %level = 13 
+    %level = 13
     <!-- html -->
 
 .. role:: asis(raw)
@@ -11,7 +11,7 @@
 
 We will derive the gain of a band-stop filter using Thevenin's method.
 
-Our starting circuit is the following from 
+Our starting circuit is the following from
 `Op Amps for EveryOne (5-10) <http://www.ti.com/lit/an/slod006b/slod006b.pdf>`_.
 
 
@@ -23,7 +23,7 @@ The input voltage is against the ground. We redraw the circuit to reflect this:
 .. texfigure:: r_dg_c2.tex
       :align: center
 
-We want to find `G=\frac{V_o}{V_i}`.  
+We want to find `G=\frac{V_o}{V_i}`.
 `V_o` is the voltage at the rightmost R. We will find the Thevenin equivalent there.
 
 
@@ -31,7 +31,7 @@ We want to find `G=\frac{V_o}{V_i}`.
       :align: center
 
 Next we find the currents using Kirchhoff's current law (KCL) and voltage law (KVL).
-There are two loops where current flows. 
+There are two loops where current flows.
 There is no current at the R at which we have made an open circuit
 
 .. texfigure:: r_dg_c4.tex
@@ -68,7 +68,7 @@ We redraw to see a little better, what is parallel and what is serial
 
 With this we get
 
-.. math:: Z_{th}=\left(\frac{1}{i \omega C}+\frac{R \frac{1}{i \omega C}}{R+\frac{1}{i \omega C}}\right) || R = 
+.. math:: Z_{th}=\left(\frac{1}{i \omega C}+\frac{R \frac{1}{i \omega C}}{R+\frac{1}{i \omega C}}\right) || R =
     \frac{R (1+2 i \omega C R)}{1+3 i \omega C R - C^2 R^2 \omega^2}
 
 and

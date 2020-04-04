@@ -2,18 +2,18 @@
 %kind = kinda["problems"]
 %level = 11
 
-Assuming you put aside monthly €{{g.r}} 
+Assuming you put aside monthly €{{g.r}}
 and get a monthly interest rate of {{g.i}}%,
-what will this saving accrue to in {{g.n}} months?<br> 
+what will this saving accrue to in {{g.n}} months?<br>
 a) with interest compounded at the end of the month? (annuity)
-%include('chcko/getorshow',idx = 0)
+%chq(0)
 <br>
 b) with interest compounded at the beginning of the month?  (annuity due)
-%include('chcko/getorshow',idx = 1)
+%chq(1)
 <br>
-c) After how many months do the savings amount to {{g.m}} times the monthly annuity? 
-%include('chcko/getorshow',idx = 2)
+c) After how many months do the savings amount to {{g.m}} times the monthly annuity?
+%chq(2)
 <br>
-d) Which effective annual interest rate is equivalent (conformal) to the monthly {{g.i}}%? 
-%include('chcko/getorshow',idx = 3, example='(1.0-100.0)')
+d) Which effective annual interest rate is equivalent (conformal) to the monthly {{g.i}}%?
+%chq(3,champles='(1.0-100.0)')
 

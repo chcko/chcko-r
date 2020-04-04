@@ -15,7 +15,7 @@ The natural number is used to refer to the position of an element (term) of the 
 It is called index.
 
 - `a_1` is the first element of the sequence
-- `a_2` is the second element 
+- `a_2` is the second element
 - ...
 - `a_n` is the n-th element
 
@@ -69,7 +69,7 @@ Specifically we have `1+2+...n=\frac{(n+1)n}{2}`.
 Geometric Sequence
 ..................
 
-In the geometric sequence one element follows from the previous one by 
+In the geometric sequence one element follows from the previous one by
 multiplying a constant
 
 `a_{n+1} = a_n \cdot q`.
@@ -99,5 +99,5 @@ In
 
 you see many equal terms. By subtraction you get
 
-`\sum_{k=1}^{n} q^{k-1} = 1 + q + ... + q^{n-1} = \frac{q^n-1}{q-1}=\frac{1-q^n}{1-q}` 
+`\sum_{k=1}^{n} q^{k-1} = 1 + q + ... + q^{n-1} = \frac{q^n-1}{q-1}=\frac{1-q^n}{1-q}`
 

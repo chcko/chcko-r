@@ -13,7 +13,7 @@
 In the following drawing we have a circle with radius 1.
 The length of the arc on such a circle is a measure for the **angle**.
 It is called **radian** and the unit is ``rad``. The right angle (90°) is `\pi/2`.
-In general 
+In general
 
 .. math::
 
@@ -72,16 +72,16 @@ The graphs of the above **trigonometric functions** are as follows
         \addplot [blue,thick] {cos(deg(x))} node [above]{cos};
     \end{axis}
 
-Some values of the functions can be found via calculations on the equal sided triangle 
+Some values of the functions can be found via calculations on the equal sided triangle
 (`\pi/3`, `\pi/6`) or on a square with side length 1 (`\pi/4`).
 
-`\cos` is symmetric: `\cos(-\alpha)=\cos\alpha` 
+`\cos` is symmetric: `\cos(-\alpha)=\cos\alpha`
 
 `\sin` is antisymmetric: `\sin(-\alpha)=-\sin\alpha`.
 
 All trigonometric functions have a period of `2\pi`: `sin|cos|tan(\alpha+2\pi)=sin|cos|tan(\alpha)`.
 
-Because the sharp angles of the rectangular triangle add to `\pi/2`, we have 
+Because the sharp angles of the rectangular triangle add to `\pi/2`, we have
 
 .. math::
     \sin(\pi/2 - \alpha)=\cos\alpha\\

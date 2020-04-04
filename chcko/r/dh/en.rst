@@ -48,7 +48,7 @@ This pin jointed truss is the initial example taken from `akabaila`_
 
 It can be analysed using force and moment vectors,
 because resulting linear equations are neither underdetermined
-nor overdetermined, but determined. 
+nor overdetermined, but determined.
 The truss is said to be *statically determinate*.
 
 **We want to find the forces along the members.**
@@ -89,11 +89,11 @@ X and Y (the values of). By external I mean that they are not specified in the c
     #nodes = x, y
     N = [V((a*8,b*6)) for a,b in [(0,0),(0,1),(1,0),(1,1),(2,0),(2,1),(3,0),(3,1)]];
     #edge = (n1,n2), n_i = indix into N
-    E = [(0, 1), (1, 3), (1, 2), (0, 2), (2, 3), (3, 5), (3, 4), 
+    E = [(0, 1), (1, 3), (1, 2), (0, 2), (2, 3), (3, 5), (3, 4),
             (2, 4), (4, 5), (5,7), (4, 6), (4, 7), (6, 7)]
     #external forces = index into N for node of application, vector
     F = [(2,V((0,-100))), (4,V((0,-150)))]
-    #support points = indices into N 
+    #support points = indices into N
     S = [0,6];
 
 Now let's find the forces along the edges.
@@ -101,7 +101,7 @@ Now let's find the forces along the edges.
 1. No revolution.
 
    We need to make the moment created around one support point zero by constructing a force
-   at the other support point. If there were more than one other support point for an axis, 
+   at the other support point. If there were more than one other support point for an axis,
    the system would be overdetermined, which we don't handle here.
 
 .. code-block:: python
@@ -123,9 +123,9 @@ Now let's find the forces along the edges.
 
    We distribute the forces to a node to those edges not having a
    force associated yet.  In our 2D case we need two such edges. One is OK, if the
-   force is exactly in that direction. 
+   force is exactly in that direction.
 
-   .. admonition:: shortcoming 
+   .. admonition:: shortcoming
        For more other edges, I take one edge, if it is in the direction of the
        force and ignore the others.  This is physically not correct, but the
        method applied here is not for overdetermined systems.
@@ -172,7 +172,7 @@ Now let's find the forces along the edges.
 The above ``distribute`` needs the edges along which forces come into the node.
 We keep track of the edges with forces in a ``{node, [(edge,force)..]}`` dictionary.
 Initially this is empty.  We add the external forces and the forces due to the moments.
-Then we distribute forces in unbalanced nodes. 
+Then we distribute forces in unbalanced nodes.
 
 .. code-block:: python
     :linenos:
@@ -193,10 +193,10 @@ Then we distribute forces in unbalanced nodes.
 
     def no_translation(EF):
         _sum = lambda tt: [reduce(lambda x,y:x+y,t) for t in zip(*tt)]
-        unbalanced = lambda:[(i,v) for i,v in [(i,_sum(EF[i])) for i in EF] 
+        unbalanced = lambda:[(i,v) for i,v in [(i,_sum(EF[i])) for i in EF]
                         if v and not allclose(norm(v[1]),0)]
         u = unbalanced()
-        while len(u)>0: 
+        while len(u)>0:
             q,(es,f) = u[0]
             dist=list(distribute(f,es,q))
             for ff,eo in dist:

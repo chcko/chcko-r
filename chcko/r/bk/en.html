@@ -2,6 +2,8 @@
 %kind = kinda["problems"]
 %level = 11
 
+%include('r.a0',withnr=False)
+
 %units=['Butter','Flour','Eggs','Jam']
 %kinds=['Sacher','Linzer','Biskuit']
 
@@ -35,7 +37,7 @@ Interpret the numbers as vectors in the vector space of cakes.
 Transform to the vector space of ingredients by doing a matrix multiplication.
 <br>
 How many eggs must be bought?
-%include('chcko/getorshow',idx = 0)
+%chq(0)
 <br>
 Afterwards transform to the vector space of cost by another Matrix multiplication
 with the following unit prices (price matrix).
@@ -53,5 +55,5 @@ with the following unit prices (price matrix).
 </table>
 
 How much money is needed to do the shopping? 
-%include('chcko/getorshow',idx = 1)
+%chq(1)
 

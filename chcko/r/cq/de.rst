@@ -13,13 +13,13 @@ Sie kann mengentheoretisch als Kardinalität der Summe zweier disjunkter Mengen 
 Dies abstrakte Vorstellung kann auf alle konkreten Fälle angewandt werden, wenn
 man eine Ressourceneinheit (Länge, Gewicht,...) mit einem Element identifiziert
 und es keine Überlappung gibt, weil etwa die Ressource nicht doppelt vergeben
-werden kann. 
+werden kann.
 
 Man muss im konkreten die reale physikalische Gegebenheit berücksichtigen.  So
 addiert sich nicht die Länge von vertikal in ein Rohr eingeführte elastische
 Stäbe wegen deren Elastizität und deren Gewicht.  Das Volumen zweier
 Flüssigkeiten kann durchmischt aber kleiner als die Summe sein, weil die
-Ressource Volumen in der Mischung effektiver zugeteilt werden kann. 
+Ressource Volumen in der Mischung effektiver zugeteilt werden kann.
 
 Der **Multiplikation** begegnet man zuerst bei der Flächenberechnung eines Rechtecks:
 Man kann entweder alle Kästchen zusammenzählen
@@ -31,9 +31,9 @@ Multiplikation die Kombinationen von `0 <= i <= a` und `0 <= j <= b` und erhält
 In einem Quadrat der Seitenlänge `a` hat man `a\cdot a` Einheitsquadrate, in
 einem Würfel der Seitenlänge `a` hat man `a^3` kleine Würfel ...  Man zählt
 hier Kombinationen einer Menge M `n` mal mit sich selbst.  `|M\times \dots
-\times M| = |M|^n`. So kommt man zur **Potenz**. 
+\times M| = |M|^n`. So kommt man zur **Potenz**.
 
-- Die Multiplikation ist eine Kurzschreibweise der Addition. 
+- Die Multiplikation ist eine Kurzschreibweise der Addition.
   Man sagt auch sie ist 2. Stufe.
 
 - Die Potenz eine Kurzschreibweise der Multiplikation.
@@ -42,7 +42,7 @@ hier Kombinationen einer Menge M `n` mal mit sich selbst.  `|M\times \dots
 **Operation** ist ein anderer Name für eine **Funktion** (:lnk:`r.cr`),
 wenn bestimmte Eigenschaften, wie **Assoziativegesetz** oder **Kommutativgesetz** erfüllt werden.
 Eine **Operation** lässt sich gut mit einem Parameter zu einer neuen Menge {(Wert,Operation)}
-vereinen (siehe Zahlen: :lnk:`r.ci` und `Lambda Kalkül <http://de.wikipedia.org/wiki/Lambda-Kalkül>`_) 
+vereinen (siehe Zahlen: :lnk:`r.ci` und `Lambda Kalkül <http://de.wikipedia.org/wiki/Lambda-Kalkül>`_)
 Diese Mengen bestehen dann aus Anweisungen oder Vorgängen, oder besser **Operatoren**,
 die dann auf etwas angewandt werden können. Z.B. 3m = (3,mal) Meter, d.h. 3 = (3,mal).
 

@@ -56,3 +56,4 @@ def calc(g):
         sympy.sstr(el),
         rG,
         mp]
+

@@ -8,8 +8,8 @@
 From real calculus we know, that
 `\frac{dy}{dx}=\frac{d\,e^x}{dx}=e^x=y`, and therefore for the inverse `\ln`
 `\frac{dx}{dy}=\frac{d\,\ln y}{dy}=\frac{1}{y}` for `y>0`.  For the antiderivative
-of `\frac{1}{y}` we can include negative `y`, if we take the absolute value: 
-`\int\frac{1}{y}dy=ln|y|+C`.  This follows from the symmetry of `\frac{1}{y}`. 
+of `\frac{1}{y}` we can include negative `y`, if we take the absolute value:
+`\int\frac{1}{y}dy=ln|y|+C`.  This follows from the symmetry of `\frac{1}{y}`.
 At 0 there is a singularity, i.e. one cannot integrate over it.
 
 In `\mathbb{C}` we have `e^z=e^{x+iy}=e^xe^{iy}`,
@@ -21,11 +21,11 @@ becomes the imaginary part.
 
 `\int \frac{1}{z}dz=ln|z|+i\arg(z)+C`
 
-In `\mathbb{C}` one can integrate around the singularity: 
+In `\mathbb{C}` one can integrate around the singularity:
 
 .. math::
 
-    \oint_{|z|=1}\frac{1}{z}dz = 
+    \oint_{|z|=1}\frac{1}{z}dz =
     (\ln|z| + i\arg z)\bigr|_{\arg z=0,\,|z|=1}^{\arg z=2\pi,\,|z|=1} = 2\pi i
 
 This is the precursor of the residue theorem.

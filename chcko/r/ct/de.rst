@@ -6,17 +6,17 @@
     <!-- html -->
 
 Die Variablen, mit denen man es normalerweise zu tun hat,
-sind Ausdehnungen (Größen, Teilmengen, Differenzen) und nicht Punkte. 
+sind Ausdehnungen (Größen, Teilmengen, Differenzen) und nicht Punkte.
 3m meint alle Punkte von von 0 bis 3m.
 
-Zwei unterschiedliche Mengen, für die alle Kombinationen vorkommen, 
-kann man als orthogonal zueinander ansehen. 
+Zwei unterschiedliche Mengen, für die alle Kombinationen vorkommen,
+kann man als orthogonal zueinander ansehen.
 Der Winkel zwischen ihnen ist `\frac{\pi}{2}`.
-Sie spannen die größtmögliche Kombinationsmenge (Fläche) auf. 
+Sie spannen die größtmögliche Kombinationsmenge (Fläche) auf.
 Vektorprodukt maximal. Skalares Produkt 0.
 
-Ein zweidimensionaler Vektor `\vec{v}` und eben auch `z\in\mathbb{C}` bezeichnet 
-eine solche Ausdehnung. Die eingeschlossene Fläche ist 
+Ein zweidimensionaler Vektor `\vec{v}` und eben auch `z\in\mathbb{C}` bezeichnet
+eine solche Ausdehnung. Die eingeschlossene Fläche ist
 `\vec{v_1}\times\vec{v_2}` oder `Im(z_1\bar{z_2})`.
 
 `z_1\bar{z_2}` hat das Skalarprodukt im Realteil und das Vektorprodukt im Imaginärteil.
@@ -31,9 +31,9 @@ aufgespannte Fläche zu erhalten. Besser man rechnet jedoch normal `z_1+z_2`,
 d.h. mit den durch das Koordinatensystem gegebenen Komponenten.
 
 Der Winkel ergibt sich aus dem Verhältnis der aufgespannten Fläche zur maximalen Fläche
-`\angle(\vec{v_1},\vec{v_2})=\arcsin\frac{|\vec{v_1}\times \vec{v_2}|}{|\vec{v_1}||\vec{v_2}|}` 
+`\angle(\vec{v_1},\vec{v_2})=\arcsin\frac{|\vec{v_1}\times \vec{v_2}|}{|\vec{v_1}||\vec{v_2}|}`
 oder aus dem Verhältnis der addierbaren Komponente zur gesamter Länge
-`\angle(\vec{v_1},\vec{v_2})=\arccos\frac{\vec{v_1}\vec{v_2}}{|\vec{v_1}||\vec{v_2}|}` 
+`\angle(\vec{v_1},\vec{v_2})=\arccos\frac{\vec{v_1}\vec{v_2}}{|\vec{v_1}||\vec{v_2}|}`
 und im Komplexen zusammen
 `\angle(z_1,z_2)=\arg(\frac{z_1\bar{z_2}}{|z_2||z_2|})=\arg{z_1\bar{z_2}}`.
 

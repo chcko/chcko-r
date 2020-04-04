@@ -7,12 +7,12 @@
 
 The numbers are their own concepts independent from their representations.
 
-The `wikipedia article <http://en.wikipedia.org/wiki/Numeral_system>`_ 
-gives a great overview beyond the 
-`positional system <http://en.wikipedia.org/wiki/Positional_notation>`_ 
+The `wikipedia article <http://en.wikipedia.org/wiki/Numeral_system>`_
+gives a great overview beyond the
+`positional system <http://en.wikipedia.org/wiki/Positional_notation>`_
 described here.
 
-Positional System 
+Positional System
 =================
 
 It is not possible to give every number its own sign.  Instead we use signs
@@ -46,7 +46,7 @@ Position value:
 
     ...  10³=1000 10²=100 10¹=10 10⁰=1
 
-    These are powers of 10. 
+    These are powers of 10.
     10 is the **base** of the decimal system.
 
     Fractions:
@@ -74,7 +74,7 @@ Example
 The binary system is important, because computers use it and because 2 is the
 smallest quantity one can still choose from.
 
-The Hexadecimal System 
+The Hexadecimal System
 ----------------------
 
 Here we make heaps of 16.
@@ -83,7 +83,7 @@ Together with the 0 we have 16 signs:
 
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
 
-The new ones are A=10, B=11, C=12, D=13, E=14, F=15. 
+The new ones are A=10, B=11, C=12, D=13, E=14, F=15.
 
 The position values are:
 

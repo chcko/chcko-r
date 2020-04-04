@@ -2,6 +2,8 @@
 %kind = kinda["Übungen"]
 %level = 11
 
+%include('r.a0',withnr=False)
+
 %units=['Butter','Mehl','Eier','Marmelade']
 %kinds=['Sachertorte','Linzertorte','Biskuittorte']
 
@@ -21,7 +23,7 @@
     </tr>
     %end
 </table>
-Für eine Party zeigt die obige Tabelle die fehlenden Zutaten der geplanten Torten 
+Für eine Party zeigt die obige Tabelle die fehlenden Zutaten der geplanten Torten
 als Bruchteile der Verkaufseinheiten.
 Es sind folgende Stückzahlen der Torten geplant:
 <table>
@@ -35,8 +37,8 @@ Es sind folgende Stückzahlen der Torten geplant:
 Interpretiere die Stückzahlen als Vektor im Vektorraum der Torten.
 Transformieren dann auf den Vektorraum der Zutaten durch Matrixmultiplikation.
 <br>
-Wie viel Eier müssen gekauft werden? 
-%include('chcko/getorshow',idx = 0)
+Wie viel Eier müssen gekauft werden?
+%chq(0)
 <br>
 Anschließend transformiere auf den Vektorraum des Geldes durch Matrixmultiplikation
 mit folgenden Einheitspreisen (Preismatrix).
@@ -53,6 +55,6 @@ mit folgenden Einheitspreisen (Preismatrix).
 </tr>
 </table>
 
-Wie viel Geld muss für den Einkauf mitgenommen werden? 
-%include('chcko/getorshow',idx = 1)
+Wie viel Geld muss für den Einkauf mitgenommen werden?
+%chq(1)
 

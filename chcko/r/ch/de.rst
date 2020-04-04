@@ -19,10 +19,10 @@ Sie heißt auch Index.
 - ...
 - `a_n` ist das n-te Glied der Folge
 
-Werden die ersten n Glieder einer Folge aufsummiert, 
+Werden die ersten n Glieder einer Folge aufsummiert,
 dann ist das das n-te glied der Summenfolge oder **Reihe**.
 
-Der Begriff *Funktion* bedeutet: 
+Der Begriff *Funktion* bedeutet:
 Weiß ich das wievielte Glied, dann weiß ich die Zahl dort.
 
 Viele Folgen haben eine Regelmäßigkeit, die es erlaubt sie viel kürzer zu beschreiben
@@ -100,5 +100,5 @@ Betrachtet man
 
 so sieht man, dass viele Summanden gleich sind. Durch Subtraktion erhält man
 
-`\sum_{k=1}^{n} q^{k-1} = 1 + q + ... + q^{n-1} = \frac{q^n-1}{q-1}=\frac{1-q^n}{1-q}` 
+`\sum_{k=1}^{n} q^{k-1} = 1 + q + ... + q^{n-1} = \frac{q^n-1}{q-1}=\frac{1-q^n}{1-q}`
 

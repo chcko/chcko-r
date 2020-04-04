@@ -51,11 +51,11 @@ Wenn `a` kleiner als `1` ist, dann fällt `y` mit `x` *strikt monoton*: `x_1<x_2
 
 Diskussion
 ----------
-    
+
 Vergleichen wir die Anzahl der Wertekombinationen von `n` bits:
 
 .. math::
-    
+
     2^n
 
 mit dem Wachstumsprozess, wie etwa das Anwachsen des Kapitals mit der jährlichen Verzinsung
@@ -68,7 +68,7 @@ oder das besonders interessante natürliche Wachstum
 
 .. math::
 
-    e^x = \lim_{n->\infty}(1+\frac{1}{n})^{nx} = 
+    e^x = \lim_{n->\infty}(1+\frac{1}{n})^{nx} =
     \lim_{m->\infty}(1+\frac{x}{m})^m = (1+\frac{x}{\infty})^\infty
 
 `e` ist `Eulersche Zahl <https://de.wikipedia.org/wiki/Eulersche_Zahl>`_
@@ -107,19 +107,19 @@ Wenn wir von der *Anzahl an Variablen* starten, dann gibt uns die
 *Anzahl der Werte* starten, dann gibt uns der *Logarithmus* die *Anzahl der
 Variablen*, die zur Wertegenerierung notwendig ist.
 
-Bei der **Zinsrechnung** schauen wir auf die Geldmenge (die `1`), 
+Bei der **Zinsrechnung** schauen wir auf die Geldmenge (die `1`),
 welche auf der Bank `i` Prozent zinsen abgibt.
 In `n` Jahren wächst die `1` zu
 
 .. math::
 
     (1+i/100)^n = q^n
-    
+
 Der *Wachstumsfaktor* `q` ist nicht `2`, sondern normalerweise nur etwas über `1`. Das
 "Informationsmaß" in diesem finanziellen Kontext würde die Anzahl
 der Jahre sein.
 
-Der essentielle Unterschied bezüglich den Bits 
+Der essentielle Unterschied bezüglich den Bits
 ist, dass, was hinzugefügt wird, ein *Bruchteil* von dem ist, was da ist.
 Aber ob Bruchteil oder nicht ist nur ein Frage der Einheit.
 
@@ -139,11 +139,11 @@ verlegt (`y=e^{kx}`).  `k = \ln q` heißt dann *Wachstumskonstante*.
 
 .. admonition:: Natürliche Verzinsung in der Finanzwelt
 
-  Auch in der finanziellen Welt sind die tatsächlichen 
+  Auch in der finanziellen Welt sind die tatsächlichen
   Verzinsungsschritte sehr klein. Aber die Bank gibt sie ihren Kunden in
-  größeren Zeiteinheiten weiter. 
+  größeren Zeiteinheiten weiter.
 
-`x` ist die Information in der **natürlichen Informationseinheit** 
+`x` ist die Information in der **natürlichen Informationseinheit**
 `nat <https://de.wikipedia.org/wiki/Nit_(Informationseinheit)>`_.
 Im Pinzip teilen wir dabei eine Variable in unendliche viele undendlich kleine Variablen auf,
 so dass der Wachstumsfaktor pro Schritt beinahe bei `1` liegt.

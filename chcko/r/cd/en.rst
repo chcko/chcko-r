@@ -4,17 +4,17 @@
     %kind = kinda["texts"]
     %level = 10
     <!-- html -->
-    
+
 
 `K` Capital
 
-    An amount of money. 
+    An amount of money.
 
 `i` Interest rate
 
-    The increase or decrease of capital `K` is notated in percent %=1/100. 
+    The increase or decrease of capital `K` is notated in percent %=1/100.
 
-    - interest value: `3\% K = 0.03 K`. 
+    - interest value: `3\% K = 0.03 K`.
     - increase : `K + 3\% K = (1+3\%) K = 1.03 K`.
     - decrease : `K - 3\% K = (1-3\%) K = 0.97 K`.
 
@@ -31,7 +31,7 @@
 
 Compound interest
 
-    After one period the capital becomes `K_{n=1} = K_0 (1+i) = K_0 q`, 
+    After one period the capital becomes `K_{n=1} = K_0 (1+i) = K_0 q`,
     after n=2 periods `K_0 q^2`, after n=3 periods `K_0 q^3`...
 
     After n periods:
@@ -46,13 +46,13 @@ Compound interest
 
 Annuity
 
-    An annuity is a payment `r` in regular time periods. 
+    An annuity is a payment `r` in regular time periods.
     The number of periods for the annuity depends on the payment.
-    The accrued payments make up the lump-sum. This is the pension or **annuity formula**: 
+    The accrued payments make up the lump-sum. This is the pension or **annuity formula**:
 
     `R_n = \sum_{m=0}^{n-1} r_m = \sum_{m=0}^{n-1} r q^m = r \frac{q^n - 1}{q-1}`
 
-    The formula can be used to calculate the **future value** (FV)`R_n` 
+    The formula can be used to calculate the **future value** (FV)`R_n`
     when the interests are compounded at the end of the periods.
 
     Annuity due is when compounded at the beginning: `R_n^v = q R_n`
@@ -64,7 +64,7 @@ Compounding periods smaller than a year
 
     To compare the effective annual rate of interest with the rate for the period one converts the rates.
 
-    In a linear conversion we use when there is no compounding taking place 
+    In a linear conversion we use when there is no compounding taking place
 
     - `i_{12} = i/12`
     - `i_4 = i/4`
@@ -84,11 +84,11 @@ Annuity rest
     one subtracts the future value of the annuity for that time from
     the capital value for that time.
 
-Convert one annuity to another 
+Convert one annuity to another
 
-    - First one finds the future value `R_n`. 
+    - First one finds the future value `R_n`.
     - This `R_n` needs to be compounded to the end of the other annuity.
-    - Using the annuity formula one can calculate the requested quantity (`n`, `q`, `r`) 
+    - Using the annuity formula one can calculate the requested quantity (`n`, `q`, `r`)
       of the new annuity.
 
 Comparison of capitals or offers

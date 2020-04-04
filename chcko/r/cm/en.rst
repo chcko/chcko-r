@@ -13,10 +13,10 @@ operations `+` and `\cdot` , in short `(M,+,\cdot)`.
 - `(M,+)` and `(M,\cdot)` are monoids and `0\cdot a = 0` holds
   `\rightarrow` **Semiring**.
 
-- `(M,+)` is commutative group 
+- `(M,+)` is commutative group
   `\rightarrow` **Ring**.
 
-- In `(M,\cdot)` there are no two numbers, whose product is 0. 
+- In `(M,\cdot)` there are no two numbers, whose product is 0.
   Free of zero divisor `\rightarrow` **Integral domain**.
 
 - `(M\setminus\{0\},\cdot)` is a commutative Group

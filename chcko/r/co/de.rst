@@ -7,14 +7,14 @@
 
 
 In der Mathematik so wie im täglichen Leben wird versucht, das **Konkrete**,
-das sich wiederholt, einmal zu beschreiben und dann darauf zu verweisen. 
+das sich wiederholt, einmal zu beschreiben und dann darauf zu verweisen.
 Dieses Gemeinsame vieler Beobachtungen ist **abstrakt**. Das macht viele
 Beschreibungen kürzer und vermindert vor allem den Gesamtumfang.
 
 Für Lernende ist es aber oft schwierig, die Verbindung mit dem Konkreten wieder
-aufzubauen. Abstrakte Definitionen und Sätze werden deshalb am besten mit 
+aufzubauen. Abstrakte Definitionen und Sätze werden deshalb am besten mit
 Kommentaren begleitet über ihre Motivation, ihre Reichweite, mit Beispielen oder
-Anwendungen. 
+Anwendungen.
 
 Normalerweise geht man vom Abstracten aus, findet Gemeinsamkeit durch Vergleichen
 und das nennt man **Analyse**.  Das Resultat der Analyse ist eine **Abstraktion**.

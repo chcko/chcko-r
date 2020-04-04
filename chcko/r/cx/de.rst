@@ -8,7 +8,7 @@
 
 **Mengenlehre**
 
-http://www.mathe-online.at/mathint/mengen/i.html 
+http://www.mathe-online.at/mathint/mengen/i.html
 
 
 **Zahlen**
@@ -20,7 +20,7 @@ http://members.chello.at/gut.jutta.gerhard/kurs/zahlen.htm
 
 http://de.wikibooks.org/wiki/Mathematik_für_Schüler/_Zahlmengen
 
-    
+
 http://www.mathe-online.at/materialien/Andreas.Pester/files/ComNum/inhalte/komZahlen.html
 
 
@@ -29,19 +29,19 @@ http://www.mathe-online.at/materialien/Andreas.Pester/files/ComNum/inhalte/komZa
 
 http://de.bettermarks.com/mathe-portal/fachgebiete/algebra.html
 
-Körper: 
+Körper:
 
 http://www.mathe-online.at/lernpfade/lin_alg_glatz/?kapitel=1
 
-Gruppe: 
+Gruppe:
 
 http://de.bettermarks.com/mathe-portal/fachgebiete/gruppentheorie.html
 
-Vektoren: 
+Vektoren:
 
 http://www.mathe-online.at/mathint/vect1/i.html
 
-Koordinatensystem: 
+Koordinatensystem:
 
 http://www.mathe-online.at/mathint/zeich/i.html
 

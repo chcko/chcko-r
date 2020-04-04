@@ -21,7 +21,7 @@ Im Allgemeinen:
     \frac{\pi}{180}\alpha[°] = \alpha[rad]
 
 Wenn man den Winkel ändert, dann ändern sich auch die Längen, die mit
-`\sin\alpha`, `\cos\alpha` und `\tan\alpha` beschriftet sind. 
+`\sin\alpha`, `\cos\alpha` und `\tan\alpha` beschriftet sind.
 Diese Längen sind durch den Winkel bestimmt.
 Anders gesagt: Diese Längen sind **Funktionen des Winkels**.
 
@@ -78,7 +78,7 @@ Die Graphen der obigen **trigonometrischen Funktionen** sind die folgenden
 Einige Werte der Funktionen ergeben sich durch Berechnungen am gleichseitigen Dreieck
 (`\pi/3`, `\pi/6`) oder am Quadrates der Seitenlänge 1 (`\pi/4`).
 
-`\cos` ist symmetrisch: `\cos(-\alpha)=\cos\alpha` 
+`\cos` ist symmetrisch: `\cos(-\alpha)=\cos\alpha`
 
 `\sin` ist antisymmetrisch: `\sin(-\alpha)=-\sin\alpha`.
 

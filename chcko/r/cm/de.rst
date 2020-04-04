@@ -5,9 +5,9 @@
     %level = 10
     <!-- html -->
 
-*Ringartige algebraische Strukturen* bauen auf 
+*Ringartige algebraische Strukturen* bauen auf
 gruppenartige Strukturen (:lnk:`r.cl`) auf
-und bestehen aus einer Menge `M` mit 
+und bestehen aus einer Menge `M` mit
 zwei binären Verknüpfung `+` und `\cdot` , kurz `(M,+,\cdot)`.
 
 - `(M,+)` und `(M,\cdot)` sind Monoide und es gilt `0\cdot a = 0`
@@ -16,7 +16,7 @@ zwei binären Verknüpfung `+` und `\cdot` , kurz `(M,+,\cdot)`.
 - `(M,+)` ist eine kommutiative Gruppe
   `\rightarrow` **Ring**.
 
-- In `(M,\cdot)` gibt es keine zwei Zahlen, deren Produkt 0 ist. 
+- In `(M,\cdot)` gibt es keine zwei Zahlen, deren Produkt 0 ist.
   Nullteilerfrei `\rightarrow` **Integritätsring**.
 
 - `(M\setminus\{0\},\cdot)` ist eine kommutative Gruppe

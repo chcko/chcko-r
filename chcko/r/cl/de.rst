@@ -5,7 +5,7 @@
     %level = 10
     <!-- html -->
 
-*Gruppenartige algebraische Strukturen* bestehen aus einer Menge `M` 
+*Gruppenartige algebraische Strukturen* bestehen aus einer Menge `M`
 mit einer binären Verknüpfung `\circ`, kurz `(M,\circ)`.
 Für alle Elemente (`\forall_{a,b\in M}`):
 

@@ -4,7 +4,7 @@
     %kind = kinda["Texte"]
     %level = 10
     <!-- html -->
-    
+
 
 `K` Kapital
 
@@ -12,9 +12,9 @@
 
 `i` Zinssatz
 
-    Die Zu- oder Abnahme von `K` wird in %=1/100 angegeben. 
+    Die Zu- oder Abnahme von `K` wird in %=1/100 angegeben.
 
-    - Zinswert: `3\% K = 0.03 K`. 
+    - Zinswert: `3\% K = 0.03 K`.
     - Zunahme: `K + 3\% K = (1+3\%) K = 1.03 K`.
     - Abnahme: `K - 3\% K = (1-3\%) K = 0.97 K`.
 
@@ -62,7 +62,7 @@ Unterjährige Rente
 
     Um den unterjährigen Zinsatz mit dem Jahreszinssatz vergleichen zu können, muss man umrechnen.
 
-    Lineare Umrechnung, wenn in den Monaten oder Quartalen keine Verzinsung stattfindet: 
+    Lineare Umrechnung, wenn in den Monaten oder Quartalen keine Verzinsung stattfindet:
 
     - `i_{12} = i/12`
     - `i_4 = i/4`
@@ -77,13 +77,13 @@ Unterjährige Rente
 
 Rentenrest
 
-    Um zu beantworten, wieviel Kapital zu einem Zeitpunkt 
-    während der Rentenlaufzeit noch übrig ist, zählt man den Rentenwert 
+    Um zu beantworten, wieviel Kapital zu einem Zeitpunkt
+    während der Rentenlaufzeit noch übrig ist, zählt man den Rentenwert
     bis zu diesem Zeitpunkt vom Kapitalwert an diesem Zeitpunkt ab.
 
 Umrechnung einer Rente in eine andere
 
-    - Man ermittelt zuerst den Endwert der einen Rente `R_n`. 
+    - Man ermittelt zuerst den Endwert der einen Rente `R_n`.
     - Dieses `R_n` muss man dann zum Endwert der anderen Rente auf- oder abzinsen.
     - Durch Verwendung der Rentenformel kann man dann die gesuchte Größe (`n`, `q`, `r`) der neuen Rente ausrechnen.
 

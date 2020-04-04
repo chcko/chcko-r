@@ -5,7 +5,7 @@
     %level = 10
     <!-- html -->
 
-*Group-like algebraic structures* consist of a set `M` 
+*Group-like algebraic structures* consist of a set `M`
 with a binary operation `\circ`, i.e. `(M,\circ)`.
 For all elements (`\forall_{a,b\in M}`):
 

@@ -1,9 +1,9 @@
-.PHONY: check render dist up
+.PHONY: check html dist up
 
 check:
 	restview --long-description --strict
 
-render:
+html:
 	cd chcko/r
 	doit -kd. html
 	doit -kd. initdb

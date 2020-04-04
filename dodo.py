@@ -27,15 +27,13 @@ task_included is internal.
 
 import sys
 import os
-
 chckouninstalled = os.path.normpath(os.path.join(os.path.dirname(__file__),'..','chcko'))
 if os.path.exists(chckouninstalled):
     sys.path.insert(0,chckouninstalled)
-
 from chcko.chcko import doit_tasks
-
 doit_tasks.set_base(__file__)
-
 task_included = doit_tasks.task_included
 task_html = doit_tasks.task_html
 task_initdb = doit_tasks.task_initdb
+task_new = doit_tasks.task_new
+task_rst = doit_tasks.task_rst

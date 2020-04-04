@@ -20,11 +20,11 @@ The counter process is division.
 Now we have introduced the **rational numbers**.
 
 .. math::
-   
+
     \mathbb{Q} = \mathbb{Z}\times\{+,-\}\\
     \mathbb{Q} = \mathbb{N}\times\{+,-\}\times\{\cdot,\div\}
-    
-    
+
+
 Repeat the multiplication and we have the new operation "to the power".
 
 Now not any more that analogously, but basically yes,

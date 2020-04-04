@@ -11,19 +11,19 @@ Die komplexen Zahlen `\mathbb{C}`
 ---------------------------------
 
 Bei den reellen Zahlen (:lnk:`r.ci`) haben wir immer wieder neue Mengen zu den
-"Zahlen" hinzu genommen. 
+"Zahlen" hinzu genommen.
 
 Das machen wir bei folgendem Problem auch.
 
-`x^2` nimmt nur positive Werte an. 
+`x^2` nimmt nur positive Werte an.
 
 - Es geht Information verloren (die Wertemenge ist kleiner) und
-- Gleichungen wie `x^2+1=0` können nicht gelöst werden 
+- Gleichungen wie `x^2+1=0` können nicht gelöst werden
 
 Wenn wir ein "Zahl" `i` erfinden die `i^2=-1` ergibt, dann deckt `x^2` mit den Vielfachen
 von `i` die ganzen negativen Zahlen ab. `i` nennen man **imaginäre Einheit**.
 
-`i` und deren Vielfache haben mit den reellen Zahlen vorerst nichts zu tun. 
+`i` und deren Vielfache haben mit den reellen Zahlen vorerst nichts zu tun.
 Sie sind orthogonal zu `\mathbb{R}`. Orthogonal bedeutet, dass alle Kombinationen
 zulässig sind und das entspricht einer Ebene, der **komplexen Zahlenebene** oder
 **Gaussschen Zahlenebene**.
@@ -32,12 +32,12 @@ zulässig sind und das entspricht einer Ebene, der **komplexen Zahlenebene** ode
 
 Das ist wie ein zweidimensionaler Vektor: 2 orthogonale Richtungen unabhängig addiert.
 
-Es gibt drei Darstellungen 
+Es gibt drei Darstellungen
 
 - `z = a+ib`, also über Komponenten oder
-- `z = r(cos\varphi + i sin\varphi)` über Länge `r` und Richtung `\varphi` (Argument, Phase) in Bogenmaß. 
+- `z = r(cos\varphi + i sin\varphi)` über Länge `r` und Richtung `\varphi` (Argument, Phase) in Bogenmaß.
 
-Aber nun folgendes: 
+Aber nun folgendes:
 
 - `i\cdot 1 = i`, also Multiplikation mit `i` macht aus 1 ein `i` das orthogonal zu
   1, der **reellen Einheit**, ist. Das ist eine Drehung um den rechten Winkel nach links.
@@ -50,7 +50,7 @@ Addition des Winkels.  Das lässt einen vermuten, dass es eine Darstellung geben
 könnte, die den Winkel im Exponenten hat.  Reihenentwicklung von `\sin` und `\cos`
 und `e^x` in der Analysis und Vergleich ergibt die **Eulersche Formel**:
 
-- :inl:`r.cy` 
+- :inl:`r.cy`
 
 `z=re^{i\varphi}` ist die **Normaldarstellung** komplexer Zahlen.
 
@@ -64,7 +64,7 @@ unterschiedlichen Werten:
 
 Allgemeiner:
 
-   In `\mathbb{C}` hat jedes Polynom n-ten Grades genau n Nullstellen 
+   In `\mathbb{C}` hat jedes Polynom n-ten Grades genau n Nullstellen
    (**Hauptsatz der Algebra**). Davon können manche aber zusammenfallen.
    `\mathbb{C}` heißt deshalb **algebraisch abgeschlossen**.
 
@@ -94,7 +94,7 @@ Weiteres:
   Das Quadrat über die Länge einer komplexen Zahl unabhängig von ihrer Richtung
   ergibt sich durch `z\bar{z}` und nicht durch `z^2`.
 
-- `φ = arg(z)` ist Argument (oder Phase) von z. 
+- `φ = arg(z)` ist Argument (oder Phase) von z.
 
   - `arg(z_1z_2)=arg(z_1)+arg(z_2)`
 
@@ -104,7 +104,7 @@ Weiteres:
 Anwendung von `\mathbb{C}`
 --------------------------
 
-Da `\mathbb{C}` eine Erweiterung von `\mathbb{R}` darstellt, 
+Da `\mathbb{C}` eine Erweiterung von `\mathbb{R}` darstellt,
 kann man alles mit `\mathbb{C}` machen, was man mit `\mathbb{R}` macht.
 Das essentiell Neue an `\mathbb{C}` sind aber alle Richtungen, statt nur `+` und `-`.
 
@@ -112,10 +112,10 @@ Was heißt Richtung?
 
 :inline:`r.ct`
 
-Die komplexen Zahlen werden in der Physik und Technik im Umfeld von Schwingungen und Wellen 
-verwendet, und davon gibt es viele: 
+Die komplexen Zahlen werden in der Physik und Technik im Umfeld von Schwingungen und Wellen
+verwendet, und davon gibt es viele:
 
-- Mechanik/Festkörper: Wasserwellen, Schallwellen, elastische Wellen,... 
+- Mechanik/Festkörper: Wasserwellen, Schallwellen, elastische Wellen,...
 
 - Elektrotechnik: Wechselstrom, Wechselstromkeis (Widerstand, Kapazität und Induktivität),...
 
@@ -125,8 +125,8 @@ verwendet, und davon gibt es viele:
 
 - Quantenmechanik: Teilchenwellen, ....
 
-Letztendlich basieren diese Anwendungen auf dem uneingeschränkteren Rechnen in `\mathbb{C}` 
-und auf den mathematisch auf `\mathbb{C}` aufbauenden Ergebnissen etwa der Funktionentheorie. 
+Letztendlich basieren diese Anwendungen auf dem uneingeschränkteren Rechnen in `\mathbb{C}`
+und auf den mathematisch auf `\mathbb{C}` aufbauenden Ergebnissen etwa der Funktionentheorie.
 
 Viele physikalische Systeme werden mit Differentialgleichungen beschrieben.
 Diese reduzieren sich auf Polynome mit komplexen Lösungen (Fundamentalsatz der Algebra)

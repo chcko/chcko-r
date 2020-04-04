@@ -4,7 +4,7 @@
     %kind = kinda["texts"]
     %level = 10
     <!-- html -->
-    
+
 Logarithm
 ---------
 
@@ -16,8 +16,8 @@ So from the result there are two ways back: either to the basis or to the expone
 
 - To get the exponent there is the **logarithm**, e.g. `\log_{3}(3^2)=2`.
 
-From the calculation rules of exponents with same basis, e.g. `2^32^2=2^{3+2}` 
-and `\frac{2^3}{2^2}=2^{3-2}` follow the logarithm rules that make 
+From the calculation rules of exponents with same basis, e.g. `2^32^2=2^{3+2}`
+and `\frac{2^3}{2^2}=2^{3-2}` follow the logarithm rules that make
 *plus* out of *multiply* and *minus* out of *divide*.
 
 The repetition of multiplication (power) becomes repetition of addition (multiplication).
@@ -53,4 +53,4 @@ It is
     \log_{10} 10 = \log 10 = \text{lg} 10 = 1\\
     \log_e e = \ln e = 1\\
     \log_2 2 = \text{lb} 2 = 1\\
-    
+

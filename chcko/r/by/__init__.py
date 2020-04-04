@@ -21,3 +21,5 @@ def calc(g):
     a = sin(pi * g.al / 180) * csga
     b = sin(pi * g.be / 180) * csga
     return [a, b]
+
+chames=[r'\(a=\)',r'\(b=\)']
