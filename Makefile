@@ -8,7 +8,7 @@ html:
 	doit -kd. html
 	doit -kd. initdb
 
-dist:
+dist: html
 	sudo python setup.py bdist_wheel
 
 up:

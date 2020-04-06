@@ -13,6 +13,10 @@ def populate_index(index_add):
         "physik/S=E*t")
     index_add("r.a1", "en", "1", "12",
         "physics/S=E*t")
+    index_add("r.a2", "de", "0", "9",
+        "Mathematik/Zahlen/NZQR")
+    index_add("r.a2", "en", "0", "9",
+        "maths/numbers/NZQR")
     index_add("r.b", "de", "1", "11",
         "Mathematik/Vektoren")
     index_add("r.b", "en", "1", "11",
