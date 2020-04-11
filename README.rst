@@ -21,7 +21,7 @@ if `chcko`_ is parallel to `chcko-r`_.
 
 Prepare content::
 
-    make render
+    make html
 
 To run content locally with `chcko`_ installed::
 
