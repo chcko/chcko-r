@@ -17,6 +17,14 @@ def populate_index(index_add):
         "Mathematik/Zahlen/NZQR")
     index_add("r.a2", "en", "0", "9",
         "maths/numbers/NZQR")
+    index_add("r.a3", "de", "0", "10",
+        "Elektronik/Transistor/BJT/R")
+    index_add("r.a3", "en", "0", "10",
+        "Electronics/Transistor/BJT/R")
+    index_add("r.a4", "de", "0", "10",
+        "Elektronik/Transistor/BJT/V")
+    index_add("r.a4", "en", "0", "10",
+        "Electronics/Transistor/BJT/V")
     index_add("r.b", "de", "1", "11",
         "Mathematik/Vektoren")
     index_add("r.b", "en", "1", "11",
