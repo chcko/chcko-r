@@ -10,7 +10,7 @@ def populate_index(index_add):
     index_add("r.a0", "en", "1", "11",
         "maths/vectors")
     index_add("r.a1", "de", "1", "12",
-        "physik/S=E*t")
+        "Physik/S=E*t")
     index_add("r.a1", "en", "1", "12",
         "physics/S=E*t")
     index_add("r.a2", "de", "0", "9",
@@ -20,11 +20,11 @@ def populate_index(index_add):
     index_add("r.a3", "de", "0", "10",
         "Elektronik/Transistor/BJT/R")
     index_add("r.a3", "en", "0", "10",
-        "Electronics/Transistor/BJT/R")
+        "electronics/transistor/BJT/R")
     index_add("r.a4", "de", "0", "10",
         "Elektronik/Transistor/BJT/V")
     index_add("r.a4", "en", "0", "10",
-        "Electronics/Transistor/BJT/V")
+        "electronics/transistor/BJT/V")
     index_add("r.b", "de", "1", "11",
         "Mathematik/Vektoren")
     index_add("r.b", "en", "1", "11",
@@ -166,7 +166,7 @@ def populate_index(index_add):
     index_add("r.cg", "en", "1", "11",
         "maths/vectors/transformation and inverse")
     index_add("r.ch", "de", "1", "10",
-        "Mathemtik/Folgen und Reihen")
+        "Mathematik/Folgen und Reihen")
     index_add("r.ch", "en", "1", "10",
         "maths/sequences and series")
     index_add("r.ci", "de", "1", "9",

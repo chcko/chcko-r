@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "physik/S=E*t"
+    %path = "Physik/S=E*t"
     %kind = 1
     %level = 12
     <!-- html -->
