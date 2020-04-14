@@ -34,7 +34,7 @@ def main():
         readme = readme_file.read()
     setuptools.setup(
         name="chcko-r",
-        version = "0.2.4",
+        version = "0.2.5",
         description="A random mix of exercises for chcko",
         long_description=readme,
         long_description_content_type="text/x-rst",
@@ -56,7 +56,7 @@ def main():
         packages=setuptools.find_namespace_packages(),
         include_package_data=True,
         namespace_packages=["chcko"],
-        install_requires=['schemdraw'],#don't ["chcko"], because on gcloud chcko is uploaded and not installed
+        install_requires=['schemdraw','pint'],#don't ["chcko"], because on gcloud chcko is uploaded and not installed
         extras_require={},
         zip_safe=False,
     )
