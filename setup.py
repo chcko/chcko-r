@@ -34,7 +34,7 @@ def main():
         readme = readme_file.read()
     setuptools.setup(
         name="chcko-r",
-        version = "0.2.5",
+        version = "0.2.6",
         description="A random mix of exercises for chcko",
         long_description=readme,
         long_description_content_type="text/x-rst",
