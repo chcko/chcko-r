@@ -11,17 +11,17 @@ def circuitsvg():
     d = SchemDraw.Drawing()
     d.add(elm.DOT, lftlabel='$V_i$')
     d.add(elm.RES, d='right', label='$R_b$')
-    Q1 = d.add(elm.BJT_NPN_C, label='$h_{fe}=%s$'%g.hfe)
+    Q1 = d.add(elm.BJT_NPN_C, label='$h_{fe}=%s$'%chiven.hfe)
     d.add(elm.DOT, xy=Q1.collector)
     d.push()
     d.add(elm.LINE, d='right',  l=d.unit*1.75)
     d.add(elm.DOT)#, label='$V_o$')
-    d.add(elm.RES, d='down', label='$R_L=%s$'%P(g.RL))
+    d.add(elm.RES, d='down', label='$R_L=%s$'%P(chiven.RL))
     d.add(elm.GND)
     d.pop()
-    d.add(elm.RES, d='up', botlabel='$R_c=%s$'%P(g.Rc))
-    d.add(elm.DOT, toplabel='$V_{cc}=%s$'%P(g.Vcc))
-    d.add(elm.RES, xy=Q1.emitter, d='down', botlabel='$R_e=%s$'%P(g.Re))
+    d.add(elm.RES, d='up', botlabel='$R_c=%s$'%P(chiven.Rc))
+    d.add(elm.DOT, toplabel='$V_{cc}=%s$'%P(chiven.Vcc))
+    d.add(elm.RES, xy=Q1.emitter, d='down', botlabel='$R_e=%s$'%P(chiven.Re))
     d.add(elm.GND)
 
     d.draw(showplot=False)
@@ -31,7 +31,7 @@ def circuitsvg():
     import matplotlib.pyplot as plt
     t = np.linspace(0, 1, 500, endpoint=False)
     inset_axes(d.ax, width="20%", height="20%", loc=3)
-    Vi = g.Vi.magnitude
+    Vi = chiven.Vi.magnitude
     Vi2 = Vi/2
     plt.xticks([])
     plt.yticks([0,Vi])

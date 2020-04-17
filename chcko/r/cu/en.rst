@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "maths/functions/integral of 1÷z"
-    %kind = kinda["texts"]
+    %kind = chindnum["texts"]
     %level = 12
     <!-- html -->
 

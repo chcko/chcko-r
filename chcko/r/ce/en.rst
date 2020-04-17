@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "maths/functions/log"
-    %kind = kinda["texts"]
+    %kind = chindnum["texts"]
     %level = 10
     <!-- html -->
 
@@ -12,7 +12,7 @@ The power operation generates a result from the basis and the exponent.
 So from the result there are two ways back: either to the basis or to the exponent.
 
 - To get the basis one forms the power of the result with the reciprocal of the exponent,
-  i.g. `(3^2)^{\frac{1}{2}} = 3`. This is also called root.
+  e.g. `(3^2)^{\frac{1}{2}} = 3`. This is also called root.
 
 - To get the exponent there is the **logarithm**, e.g. `\log_{3}(3^2)=2`.
 

@@ -4,13 +4,13 @@ from math import log
 from chcko.chcko.hlp import Struct
 
 
-def given():
+def chiven():
     g = Struct()
     g.pc = random.randrange(10, 90)
     return g
 
 
-def calc(g):
+def chalc(g):
     t = -log(g.pc / 100.0) * 5730 / log(2)
     return [t]
 

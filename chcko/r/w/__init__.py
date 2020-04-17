@@ -2,7 +2,7 @@
 
 import random
 
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 
 be = []
 for i in range(2, 5):
@@ -14,12 +14,12 @@ for i in range(2, 5):
 random.shuffle(be)
 
 
-def given():
+def chiven():
     b, e = random.sample(be, 1)[0]
     g = Struct(b=b, e=e)
     return g
 
 
-def calc(g):
+def chalc(g):
     x = 1.0 * g.b ** (1.0 * g.e)
     return [x]

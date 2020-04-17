@@ -2,10 +2,10 @@
 
 import random
 import numpy as np
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 
 
-def given():
+def chiven():
     k = np.array(random.sample(range(30, 60), 3))
     A = np.array([1, 0, 0] + random.sample(range(1, 19), 6))
     A.shape = (3, 3)
@@ -15,7 +15,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     axy = np.dot(g.A, g.k)
     z = np.dot(g.Z, axy)
     K = g.m * z

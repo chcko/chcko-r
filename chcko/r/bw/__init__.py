@@ -4,7 +4,7 @@ from chcko.chcko.hlp import Struct
 from datetime import datetime, timedelta
 
 
-def given():
+def chiven():
     g = Struct()
     g.K0 = randrange(20, 100) * 1000
     g.d1 = datetime.now() - timedelta(days=randrange(300)) - \
@@ -15,7 +15,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     K0 = g.K0
     i = g.i
     d1 = g.d1

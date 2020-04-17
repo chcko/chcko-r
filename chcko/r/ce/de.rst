@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "Mathematik/Funktionen/Log"
-    %kind = kinda["Texte"]
+    %kind = chindnum["Texte"]
     %level = 10
     <!-- html -->
 

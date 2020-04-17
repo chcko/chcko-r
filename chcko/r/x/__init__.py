@@ -3,13 +3,13 @@ import random
 from sympy.abc import a, b, c, d, e, f, g, h, i, j, k, m, n, p, q, r, s, t, u, v, w, x, y, z
 from sympy import sstr, simplify
 
-from chcko.chcko.hlp import Struct, equal_0 as equal
+from chcko.chcko.hlp import Struct, equal_0 as chequal
 
 syms = [a, b, c, d, e, f, g, h, i, j, k, m, n, p, q, r, s, t, u, v, w, x, y, z]
 syml = 'abcdefghijkmnpqrstuvwxyz'
 
 
-def given():
+def chiven():
     bn = random.sample(syml, 3)
     bd = bn[:]
     random.shuffle(bd)
@@ -19,7 +19,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     nm = 1
     for i, ae in enumerate(g.en):
         nm = nm * simplify(g.bn[i]) ** ae
@@ -27,4 +27,4 @@ def calc(g):
         nm = nm / simplify(g.bd[i]) ** ae
     return [sstr(simplify(nm))]
 
-norm = lambda x: x
+chorm = lambda x: x

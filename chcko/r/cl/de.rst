@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "Mathematik/Stukturen/Gruppe"
-    %kind = kinda["Texte"]
+    %kind = chindnum["Texte"]
     %level = 10
     <!-- html -->
 

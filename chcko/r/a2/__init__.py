@@ -5,7 +5,7 @@ from itertools import product
 from numpy import where
 is_natural = lambda x: x.is_integer and x>=0
 rch = random.choice
-def given():
+def chiven():
     g = Struct()
     random.seed()
     g.a = Integer(rch([-1,1]))
@@ -18,8 +18,8 @@ def given():
     random.shuffle(g.ops)
     g.rep = ['b',f"{rch('+-')}{rch('23')}*a"]
     return g
-def calc(g):
-    #g=given()
+def chalc(g):
+    #g=chiven()
     res1 = [is_natural(eval(x.replace(*g.rep),{**g})) for x in g.ops]
     res = [''.join([chr(65+x) for x in where(res1)[0]])]
     return res

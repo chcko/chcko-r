@@ -3,10 +3,10 @@ from random import randrange
 from chcko.chcko.hlp import Struct, norm_int, norm_rounded
 import numpy as np
 
-__all__ = ['given', 'norm', 'calc', 'T']
+__all__ = ['chiven', 'chorm', 'chalc', 'T']
 
 
-def given():
+def chiven():
     g = Struct()
     r2 = lambda v: round(
         randrange(int(v * 100 - v * 10), int(v * 100 + v * 10)) / 100.0, 2)
@@ -23,7 +23,7 @@ def given():
 T = lambda x: np.transpose(np.array(x))
 
 
-def calc(g):
+def chalc(g):
     npR = T(g.RR)
     npM = np.array(g.PP)
     npC = np.array(g.CC)
@@ -32,5 +32,5 @@ def calc(g):
     return [int(ingr[2]), money]
 
 
-def norm(answers):
+def chorm(answers):
     return [norm_int(answers[0]), norm_rounded(answers[1])]

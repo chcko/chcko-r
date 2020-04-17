@@ -5,7 +5,7 @@ from math import log
 from chcko.chcko.hlp import Struct
 
 
-def given():
+def chiven():
     g = Struct()
     g.r = random.sample(range(100, 200), 1)[0]
     g.n = random.sample(range(5, 10), 1)[0]
@@ -15,7 +15,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     q = 1.0 + 1.0 * g.i / 100
     kn = g.r * (1 - q ** g.n) / (1 - q)
     kv = q * kn

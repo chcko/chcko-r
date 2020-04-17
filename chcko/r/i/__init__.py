@@ -3,14 +3,14 @@
 import random
 from sympy.abc import x
 from sympy import log, latex
-from chcko.chcko.hlp import Struct, norm_int as norm
+from chcko.chcko.hlp import Struct, norm_int as chorm
 
 jsFuncs = {'exp': 'return Math.pow(({0}),x-({1}))+({2})',
            'log': 'if (x-({0})>0) return Math.log(x-({0}))+({1})',
            'pow': 'return ({0})*Math.pow(x-({1}),({2}))+({3})'}
 
 
-def given():
+def chiven():
     # r,i,n,m=143,3,5,50
     N = 4
     rs = lambda r: random.sample(r, 1)[0]
@@ -51,5 +51,5 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     return [o + 1 for o in g.order]

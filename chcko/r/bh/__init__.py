@@ -3,7 +3,7 @@ from random import randrange
 from chcko.chcko.hlp import Struct, listable
 
 
-def given():
+def chiven():
     g = Struct()
     g.a = randrange(20, 128)
     g.b = randrange(20, 128)
@@ -11,9 +11,9 @@ def given():
 
 
 @listable
-def norm(a):
+def chorm(a):
     return a.lstrip('0')
 
 
-def calc(g):
+def chalc(g):
     return ['{0:b}'.format(int(g.a * g.b))]

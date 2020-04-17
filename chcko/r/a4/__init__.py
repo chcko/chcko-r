@@ -4,7 +4,7 @@ import pint
 u = pint.UnitRegistry()
 import random
 
-def given():
+def chiven():
     g = Struct()
     g.Vcc = random.choice(range(7,15))*u.V
     g.Vi = random.choice(range(4,g.Vcc.magnitude-2))*u.V
@@ -15,8 +15,8 @@ def given():
     ReRL = g.Rc/(g.Vcc/Vo1-1)
     g.RL = g.Re = 2*round(ReRL.magnitude)*u.ohm
     return g
-def calc(g):
-    #g = given()
+def chalc(g):
+    #g = chiven()
     Vo0 = g.RL/(g.RL+g.Rc)*g.Vcc
     Vo1 = g.Vcc*(1-g.Rc/(g.Rc+1/(1/g.Re+1/g.RL)))
     g.Icmax = Vo1/g.Re

@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "physics/circuits/thevenin"
-    %kind = kinda["examples"]
+    %kind = chindnum["examples"]
     %level = 13
     <!-- html -->
 

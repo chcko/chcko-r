@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "maths/functions/exponential"
-    %kind = kinda["texts"]
+    %kind = chindnum["texts"]
     %level = 11
     <!-- html -->
 

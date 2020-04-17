@@ -5,7 +5,7 @@ import numpy as np
 from chcko.chcko.hlp import Struct
 
 
-def given():
+def chiven():
     a = random.sample(range(30, 50), 1)[0] * 1000
     b = random.sample(range(50, 100), 1)[0] * 1000
     n = random.sample(range(3, 6), 1)[0]
@@ -20,7 +20,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     # g={'a':31000,'b':98000,'c':721000,'n':5,'k':9}
     y = np.array(range(1, g.n + 1))
     T = np.sum((y * g.a + g.b) / (1 + 1.0 * g.k / 100) ** y)

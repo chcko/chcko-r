@@ -4,7 +4,7 @@ from math import log
 from chcko.chcko.hlp import Struct
 
 
-def given():
+def chiven():
     g = Struct()
     g.Kn = randrange(1000, 2000)
     g.R = randrange(100, 200)
@@ -12,6 +12,6 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     r = log(g.Kn * g.i / 100.0 / g.R + 1) / log(1.0 + g.i / 100.0)
     return [r]

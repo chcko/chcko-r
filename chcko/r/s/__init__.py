@@ -6,7 +6,7 @@ import random
 from chcko.chcko.hlp import Struct
 
 
-def given():
+def chiven():
     p1, p2 = random.sample(range(20, 30), 2)
     p0 = random.sample(range(140, 150), 1)[0]
     pp0 = random.sample(range(51, 60), 1)[0]
@@ -23,7 +23,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     iA = np.linalg.inv(np.array(g.A))
     x = np.dot(iA, np.array(g.b))
     return [i for i in (100 * x).round().tolist()]

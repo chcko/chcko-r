@@ -1,5 +1,5 @@
 %path = "Mathematik/Vektoren/Matrix/Torten"
-%kind = kinda["Übungen"]
+%kind = chindnum["Übungen"]
 %level = 11
 
 %include('r.a0')
@@ -17,7 +17,7 @@
 %for i,k in enumerate(units):
     <tr>
     <td> {{k}} </td>
-    %for v in T(g.RR)[i]:
+    %for v in T(chiven.RR)[i]:
         <td> {{v}} </td>
         %end
     </tr>
@@ -30,7 +30,7 @@ Es sind folgende Stückzahlen der Torten geplant:
 %for i,n in enumerate(kinds):
     <tr>
     <td>{{n}}</td>
-    <td>{{ g.CC[i] }}</td>
+    <td>{{ chiven.CC[i] }}</td>
     </tr>
     %end
 </table>
@@ -49,7 +49,7 @@ mit folgenden Einheitspreisen (Preismatrix).
     %end
 </tr>
 <tr>
-%for m in g.PP:
+%for m in chiven.PP:
     <td>{{m}}</td>
     %end
 </tr>

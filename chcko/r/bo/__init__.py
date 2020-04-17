@@ -4,7 +4,7 @@ from chcko.chcko.hlp import Struct
 import numpy as np
 
 
-def given():
+def chiven():
     n = 5
     x = sorted(sample(range(20), n))
     p = randrange(3, 6)
@@ -16,7 +16,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     pf = np.polyfit(g.x, g.y, 2)
     pf = [-pf[0], g.p - pf[1], -pf[2]]
     xmax = np.roots(np.polyder(pf))

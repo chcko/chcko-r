@@ -3,10 +3,10 @@ import random
 from sympy.abc import x
 from sympy.solvers import solve
 from sympy import sstr, apart, S
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 
 
-def given():
+def chiven():
     a, b, c, d, e, f = random.sample(list(range(-9, -1)) + list(range(1, 9)), 6)
     #x = a/b
     rs = a - c
@@ -25,7 +25,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     try:
         sol = solve(S(g.sls) - S(g.srs), x)[0]
         return [sol]

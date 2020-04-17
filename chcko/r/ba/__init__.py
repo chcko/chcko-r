@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from random import randrange
-from chcko.chcko.hlp import Struct, norm_rounded as norm
+from chcko.chcko.hlp import Struct, norm_rounded as chorm
 
-__all__ = ['given', 'norm', 'calc', 'g_fn', 'g_fs']
+__all__ = ['chiven', 'chorm', 'chalc', 'g_fn', 'g_fs']
 
 g_fn = [lambda a1, q, n:a1 + (n - 1) * q, lambda a1, q, n: a1 * q ** (n - 1)]
 g_fs = [lambda a1,
@@ -14,7 +14,7 @@ g_fs = [lambda a1,
         n: a1 * (q ** n - 1) / (q - 1)]
 
 
-def given():
+def chiven():
     rr = randrange(2)  # 0 arithmetic, 1 geometric
     if rr == 0:
         a1 = randrange(-9, 9)
@@ -26,5 +26,5 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     return [g_fn[g.rr](g.a1, g.q, g.n), g_fs[g.rr](g.a1, g.q, g.N)]

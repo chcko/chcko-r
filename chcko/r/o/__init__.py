@@ -4,9 +4,9 @@ import random
 from sympy import latex, Poly, Rational
 from sympy.abc import x
 
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 
-__all__ = ['given', 'calc', 'norm', 'tex_lin']
+__all__ = ['chiven', 'chalc', 'chorm', 'tex_lin']
 
 
 def tex_lin(a, b):
@@ -14,7 +14,7 @@ def tex_lin(a, b):
     return latex(p.as_expr())
 
 
-def given():
+def chiven():
     # ax+b=cx
     a, c = random.sample(list(range(2, 10)) + list(range(-9, -2)), 2)
     da, dc = random.sample(list(range(2, 4)) + list(range(-3, -1)), 2)
@@ -24,5 +24,5 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     return [1.0 * g.b / (g.c - g.a)]

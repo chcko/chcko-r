@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "Mathematik/Zahlen/NZQR lang"
-    %kind = kinda["Texte"]
+    %kind = chindnum["Texte"]
     %level = 9
     <!-- html -->
 

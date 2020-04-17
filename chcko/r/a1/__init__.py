@@ -3,17 +3,17 @@
 # from chcko.chcko.hlp import Struct
 # # randomize numbers using e.g. sample and randrange
 # import random
-# def given():
+# def chiven():
 #     g = Struct()
 #     # fill g
 #     return g
-# def calc(g):
+# def chalc(g):
 #     res = []
 #     # fill res
 #     return res
 # # #remove if default norm_rounded works fine
-# # def norm(answers):
+# # def chorm(answers):
 # #     return norm_rounded(answers)
 # # #remove if default equal_eq works fine
-# # def equal(a, r):
+# # def chequal(a, r):
 # #     return equal_eq(a, r)

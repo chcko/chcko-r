@@ -1,7 +1,7 @@
 from random import randrange, sample
 from chcko.chcko.hlp import Struct
 
-def given():
+def chiven():
     i1 = randrange(15, 90) / 10.0
     di = (randrange(1, 10) - 5) / 50.0
     if di == 0:
@@ -22,7 +22,7 @@ def given():
         i2v=i_v[1])
     return g
 
-def calc(g):
+def chalc(g):
     res = 2 if (
         (1 +
          float(

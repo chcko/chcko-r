@@ -4,7 +4,7 @@ import numpy as np
 from chcko.chcko.hlp import Struct
 
 
-def given():
+def chiven():
     r = sorted(random.sample(range(-9, -1), 2) + random.sample(range(1, 9), 2))
     c = [-1, +r[0] + r[1] + r[2] + r[3],  # x**4,x**3
          -r[0] * r[1] - r[0] * r[2] - r[0] * r[3] - r[1] *
@@ -16,7 +16,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     p = np.poly1d(g.c)
     p_i = np.polyint(p)
     I = +p_i(g.r[1]) - p_i(g.r[0]) - p_i(g.r[2]) + \

@@ -13,7 +13,7 @@ ipyt = 0
 per = list(permutations([0, 1, 2]))
 
 
-def given():
+def chiven():
     global pyt, ipyt
     A = np.array(random.sample(range(-9, 10), 2))
     ipyt = (ipyt + 1) % len(pyt)
@@ -29,7 +29,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     for i in per:
         a = np.array(g.p[i[1]]) - np.array(g.p[i[0]])
         b = np.array(g.p[i[2]]) - np.array(g.p[i[0]])
@@ -39,5 +39,5 @@ def calc(g):
     return ["ABC"[i[0]], F]
 
 
-def norm(answers):
+def chorm(answers):
     return [answers[0].upper(), norm_frac(answers[1])]

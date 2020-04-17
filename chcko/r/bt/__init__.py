@@ -7,7 +7,7 @@ from sympy import S, Rational as R
 from sympy.abc import x
 
 
-def given():
+def chiven():
     a = 1
     b = R(randrange(3, 6))
     c = R('0.6') + randrange(5) * R(1, 10)
@@ -34,7 +34,7 @@ def given():
     return dc
 
 
-def calc(dc):
+def chalc(dc):
     p1 = sympy.integrate(sympy.pi * S(dc.u) ** 2, (x, 0, 1))
     p2 = sympy.integrate(sympy.pi * S(dc.v) ** 2, (x, 1, S(dc.d)))
     p3 = sympy.integrate(sympy.pi * S(dc.w) ** 2, (x, S(dc.d), S(dc.h)))

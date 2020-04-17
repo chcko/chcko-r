@@ -5,7 +5,7 @@ from sympy.abc import x
 from sympy import exp, sin, cos, latex, Rational, S, N, integrate, sstr
 from chcko.chcko.hlp import Struct
 
-__all__ = ['given', 'calc', 'low', 'high']
+__all__ = ['chiven', 'chalc', 'low', 'high']
 
 rs = []
 for i in [2, 3, 5]:
@@ -51,7 +51,7 @@ print(cnt) #=> 0 => no root
 """
 
 
-def given():
+def chiven():
     ff1 = random.sample(funs1, 1)[0]
     f1 = ff1 - random.sample(crange, 1)[0]
     f2 = random.sample(funs2, 1)[0]
@@ -59,6 +59,6 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     res = N(integrate(S(g.f2) - S(g.f1), (x, low, high)))
     return [res]

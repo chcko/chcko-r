@@ -6,7 +6,7 @@ from sympy import S, Rational as R, latex
 from sympy.abc import x
 
 
-def given():
+def chiven():
     xp0 = randrange(7, 10)
     pmax = randrange(7, 10)
     Ep = R(-pmax, xp0) * x + pmax
@@ -28,12 +28,12 @@ def given():
     return g
 
 
-def norm(a):
+def chorm(a):
     res = [norm_expr(aa) for aa in a[:5]] + norm_rounded(a[5:], 2)
     return res
 
 
-def calc(g):
+def chalc(g):
     Kp = S(g.Kp)
     Ep = R(-g.pmax, g.xp0) * x + g.pmax
     E = sympy.integrate(Ep, x)

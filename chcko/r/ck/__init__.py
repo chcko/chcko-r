@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 from __future__ import division
 from random import randrange
-from chcko.chcko.hlp import Struct, norm_int as norm
+from chcko.chcko.hlp import Struct, norm_int as chorm
 
 
-def given():
+def chiven():
     return Struct(
         A=randrange(150, 200), B=randrange(100, 150), C=randrange(50, 100)
     )
 
 
-def calc(g):
-    # g=given()
+def chalc(g):
+    # g=chiven()
     # g=Struct(A=200,B=150,C=100)
     # total unknown but assumed known
     # p1=g.A/total

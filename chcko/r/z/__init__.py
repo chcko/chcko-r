@@ -6,7 +6,7 @@ from sympy.abc import x
 from chcko.chcko.hlp import Struct, norm_int, norm_frac
 
 
-def given():
+def chiven():
     p = 0
     x1 = x2 = 0
     while p == 0 and x1 == x2:  # p could become 0
@@ -20,8 +20,8 @@ def given():
     return g
 
 
-def calc(g):
-    # g=given()
+def chalc(g):
+    # g=chiven()
     p = Poly(g['coef'], x, domain='ZZ')
     x1, x2 = solve(p)
     xs = 1.0 * (x1 + x2) / 2
@@ -36,8 +36,8 @@ def calc(g):
     return answers
 
 
-def norm(answers):
-    #answers = calc(given())
+def chorm(answers):
+    #answers = chalc(chiven())
     a = answers[:]
     res = a[0]
     try:

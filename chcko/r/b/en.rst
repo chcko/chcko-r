@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "maths/vectors"
-    %kind = kinda["texts"]
+    %kind = chindnum["texts"]
     %level = 11
     <!-- html -->
 

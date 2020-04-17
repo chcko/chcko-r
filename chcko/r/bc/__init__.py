@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from random import randrange
 from math import log
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 
 
-def given():
+def chiven():
     g = Struct()
     g.C0 = randrange(20, 100) * 1000
     g.i = randrange(20, 40) / 10.0
@@ -13,7 +13,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     q = (g.i / 100.0 + 1) ** (1.0 / 12)
     m = 12 * g.n
     Q = lambda n: q * (q ** n - 1) / (q - 1)

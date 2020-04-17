@@ -3,10 +3,10 @@
 import numpy as np
 import random
 
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 
 
-def given():
+def chiven():
     while True:
         A = np.array(random.sample(range(-5, 6), 4))
         A.shape = (2, 2)
@@ -20,7 +20,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     A = np.linalg.inv(np.array(g.m))
     A = A.round()
     r = [A[0, 0], A[0, 1], A[1, 0], A[1, 1]]

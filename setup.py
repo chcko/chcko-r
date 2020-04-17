@@ -34,7 +34,7 @@ def main():
         readme = readme_file.read()
     setuptools.setup(
         name="chcko-r",
-        version = "0.2.6",
+        version = "0.3.0",
         description="A random mix of exercises for chcko",
         long_description=readme,
         long_description_content_type="text/x-rst",
@@ -45,13 +45,14 @@ def main():
             "Development Status :: 4 - Beta",
             "Intended Audience :: Developers",
             "Programming Language :: Python",
+            "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
             "Operating System :: OS Independent",
             "Topic :: Internet",
-            'Programming Language :: Python :: 3',
-            'License :: OSI Approved :: GNU General Public License (GPL)',
-            'Topic :: Education',
-            'Topic :: Education :: Computer Aided Instruction (CAI)'
+            "License :: OSI Approved :: GNU General Public License (GPL)",
+            "Topic :: Education",
+            "Topic :: Education :: Computer Aided Instruction (CAI)"
         ],
         packages=setuptools.find_namespace_packages(),
         include_package_data=True,

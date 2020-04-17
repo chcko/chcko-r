@@ -18,7 +18,7 @@ def circuitsvg():
     d.add(elm.DOT, rgtlabel='$V_o$')
     d.pop()
     d.add(elm.RES, d='up', label='$R_c$')
-    d.add(elm.DOT, toplabel=P(g.Vcc))
+    d.add(elm.DOT, toplabel=P(chiven.Vcc))
     d.add(elm.RES, xy=Q1.emitter, d='down', label='$R_e$')
     d.add(elm.GND)
 
@@ -29,15 +29,15 @@ def circuitsvg():
     import matplotlib.pyplot as plt
     t = np.linspace(0, 1, 500, endpoint=False)
     inset_axes(d.ax, width="20%", height="20%", loc=3)
-    Vi = g.Vi.magnitude
+    Vi = chiven.Vi.magnitude
     Vi2 = Vi/2
     plt.xticks([])
     plt.yticks([0,Vi])
     plt.title("$V_i$")
     plt.plot(t, Vi2*(signal.square(2*np.pi*2*t+np.pi)+1))
     inset_axes(d.ax, width="20%", height="20%", loc=4)
-    Vo = g.Vo.magnitude
-    Vcc = g.Vcc.magnitude
+    Vo = chiven.Vo.magnitude
+    Vcc = chiven.Vcc.magnitude
     Vo2 = (Vcc-Vo)/2
     plt.xticks([])
     plt.yticks([Vo,Vcc])

@@ -5,10 +5,10 @@ import random
 import numpy as np
 from math import acos, pi
 
-__all__ = ['given', 'calc']
+__all__ = ['chiven', 'chalc']
 
 
-def given():
+def chiven():
     g = Struct()
     g.x = random.sample(range(-9, 9), 2)
     g.y = random.sample(range(-9, 9), 2)
@@ -20,7 +20,7 @@ angle = lambda a, b: 180 * \
 taria = lambda a, b: abs(np.cross(a, b) / 2)
 
 
-def calc(g):
+def chalc(g):
     a = angle(g.x, g.y)
     A = taria(g.x, g.y)
     nx = np.linalg.norm(g.x)

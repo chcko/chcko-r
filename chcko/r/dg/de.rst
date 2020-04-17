@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "Physik/Schaltkreise/Thevenin"
-    %kind = kinda["Beispiele"]
+    %kind = chindnum["Beispiele"]
     %level = 13
     <!-- html -->
 

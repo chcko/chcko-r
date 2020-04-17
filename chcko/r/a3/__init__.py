@@ -3,7 +3,7 @@ import numpy as np
 import pint
 u = pint.UnitRegistry()
 import random
-def given():
+def chiven():
     g = Struct()
     g.Vcc = random.choice(range(7,15))*u.V
     g.Vi = random.choice(range(4,g.Vcc.magnitude-2))*u.V
@@ -12,8 +12,8 @@ def given():
     g.Icmax = random.choice(range(5,15))*u.mA
     g.Vbe = random.choice([0.3,0.7])*u.V
     return g
-def calc(g):
-    #g = given()
+def chalc(g):
+    #g = chiven()
     VceCutoff = g.Vcc
     VceSaturation = 0
     ReRc = (g.Vcc-VceSaturation)/g.Icmax

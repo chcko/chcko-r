@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "physics/mechanics/forces"
-    %kind = kinda["examples"]
+    %kind = chindnum["examples"]
     %level = 10 #in school years
     <!-- html -->
 

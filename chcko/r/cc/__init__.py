@@ -3,12 +3,12 @@
 import numpy as np
 import random
 
-from chcko.chcko.hlp import Struct, norm_frac as norm
+from chcko.chcko.hlp import Struct, norm_frac as chorm
 import chcko.r.u as ru
 
 
-def given():
-    g = ru.given()
+def chiven():
+    g = ru.chiven()
     g.v = random.sample(range(-9, 9), 2)
     return g
 
@@ -16,7 +16,7 @@ def given():
 # g.v=np.array([-6,4])
 
 
-def calc(g):
+def chalc(g):
     A = np.linalg.inv(np.array(g.m)).round()
     res = np.dot(A, np.transpose(g.v))
     return res.tolist()

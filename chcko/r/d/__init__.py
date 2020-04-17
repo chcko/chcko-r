@@ -18,7 +18,7 @@ num = len(gc) * len(gu) * len(gr) * len(gt)
 ee = E ** (-T / (R * C))
 
 
-def given():
+def chiven():
     i = random.randrange(num)
     g = Struct()
     g.c, g.u, g.r, g.t = curt[i]
@@ -26,7 +26,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     # r,u,u2,t=230,940,773.54,26
     r, u, u2, t = g.r, g.u, g.u2, g.t
     c = 1e3 * t / (r * log(u / u2))
@@ -37,8 +37,8 @@ def calc(g):
             1e-3 * r * c * log(2)]
 
 
-def norm(answers):
-    # answers=calc(given())
+def chorm(answers):
+    # answers=chalc(chiven())
     try:
         e = simplify(answers[0].upper())
         a0 = str(e)

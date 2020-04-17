@@ -7,7 +7,7 @@ import sympy
 from sympy.abc import x
 
 
-def given():
+def chiven():
     g = Struct()
     g.w = randrange(400, 500)
     g.h = randrange(150, 250)
@@ -17,7 +17,7 @@ def given():
     return g
 
 
-def calc(g):
+def chalc(g):
     w = g.w
     h = g.h
     dw = g.dw

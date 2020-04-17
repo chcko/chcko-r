@@ -1,7 +1,7 @@
 .. raw:: html
 
     %path = "Mathematik/Funktionen/exponentiell"
-    %kind = kinda["Texte"]
+    %kind = chindnum["Texte"]
     %level = 11
     <!-- html -->
 
