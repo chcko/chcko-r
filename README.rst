@@ -48,7 +48,7 @@ e.g ``.. texfigure:: r_dg_c1.tex``.
 Images can also be generated on the fly.
 Examples:
 `r.a3 <https://github.com/chcko/chcko-r/blob/master/chcko/r/a3/circuit.html>`__
-`r.a4 <https://github.com/chcko/chcko-r/blob/master/chcko/r/a4/circuit.html`__.
+`r.a4 <https://github.com/chcko/chcko-r/blob/master/chcko/r/a4/circuit.html>`__.
 
 .. _`chcko`: https://github.com/chcko/chcko
 .. _`chcko-r`: https://github.com/chcko/chcko-r
