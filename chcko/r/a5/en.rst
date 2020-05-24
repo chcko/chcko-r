@@ -60,7 +60,7 @@ Small changes:
     `d` is called *differential*.
 
     With `dy` we use `∫` for sum,
-    and call it *integral*:
+    and call it *integral*.
 
 Velocity
 ========
