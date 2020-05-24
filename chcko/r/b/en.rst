@@ -12,7 +12,7 @@ What is a Vector?
 .................
 
     A **multidimensional vector** can be seen as independently choosing (value)
-    from more variables (categories, quantities, dimensions).
+    from more variables.
 
     The values (number+unit) must be **addable** independently.
 

@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Funktionen/exponentiell"
+    %path = "Mathe/Funktionen/exponentiell"
     %kind = chindnum["Texte"]
     %level = 11
     <!-- html -->

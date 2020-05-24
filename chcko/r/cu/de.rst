@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Funktionen/Integral von 1÷z"
+    %path = "Mathe/Funktionen/Integral von 1÷z"
     %kind = chindnum["Texte"]
     %level = 12
     <!-- html -->

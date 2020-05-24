@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Richtung"
+    %path = "Mathe/Richtung"
     %kind = chindnum["Texte"]
     %level = 11
     <!-- html -->

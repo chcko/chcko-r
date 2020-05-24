@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Mathematik+Information"
+    %path = "Mathe/Mathe+Information"
     %kind = chindnum["Texte"]
     %level = 9
     <!-- html -->
@@ -121,8 +121,9 @@ und dann eine Auswahl mit 0 (nicht verwendet) und 1 (verwendet) codieren.
 Mit weniger bits kommt man aus, wenn man herausfindet, welche Elemente
 sich gegenseitig ausschließen.
 
-Eine Menge, aus der in einem Kontext nur ein Element ausgewählt werden kann,
-wird mit Variable bezeichnet. Das Element das ausgewählt wird heißt Wert.
+Eine Menge, aus der nur ein Element ausgewählt werden kann,
+ist eine Variable.
+Das Element das ausgewählt wird heißt Wert.
 
 .. admonition:: Variable
 

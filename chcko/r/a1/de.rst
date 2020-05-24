@@ -5,28 +5,36 @@
     %level = 12
     <!-- html -->
 
+Ein System kann als Variable gesehen werden.
+Der Zustand eines Systems ist ein Wert der Variable.
 
-**Entropie** ist die Information in einem System.
-Entropie ist die *Anzahl der Zustände eines Systems*.
+**Entropie** ist die Information einer Variable.
+Entropie ist die *Anzahl der Werte einer Variable*.
+
 Was mit Zustand gemeint ist, spielt keine Rolle,
 d.h. wurde weg abstrahiert.
 Nur die Anzahl spielt hier eine Rolle.
 
-Die Zustände müssen vorkommen, d.h. das System muss sich ändern
-(Informationsereignisse).
+Die Zustände müssen vorkommen.
+Das heißt, das System muss sich ändern.
 **Energie** ist die **Anzahl der Zustände pro Zeit**.
-Energie definiert die Zeit durch die Zustandsänderungen.
 
 .. math::
 
         S = Et
+
+Man kann das auch anders herum betrachten:
+Energie erzeugt die Zeit durch das Ändern der Werte.
+Wenn das System aus vielen unabhängigen Variablen besteht,
+wird so eine System-Zeitauflösung erzeugt,
+welche in keiner unabhängigen Variablen vorkommt.
 
 Eine konstante Menge an Energie kann
 
 - wenige Zustände schnell wiederholen:  `\Delta S` und `\Delta t` klein
 - viele Zustände langsam wiederholen: `\Delta S` und `\Delta t` groß
 
-Aber ein System besteht aus Schichten.
+Ein System besteht oft aus Schichten.
 
 In einem idealen Gas,
 ist die Energie `Q=TS` gegeben durch

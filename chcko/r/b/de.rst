@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Vektoren"
+    %path = "Mathe/Vektoren"
     %kind = chindnum["Texte"]
     %level = 11
     <!-- html -->
@@ -12,7 +12,7 @@ Was ist ein Vektor?
 ...................
 
     Einen **mehrdimensionalen Vektor** kann man als unabhängige Auswahl (Wert) von
-    mehreren Variablen (Kategorien, Größen, Dimensionen) verstehen.
+    mehreren Variablen verstehen.
 
     Die Werte (Zahl+Einheit) müssen unabhängig **addierbar** sein.
 

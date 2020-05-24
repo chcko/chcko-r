@@ -71,12 +71,12 @@ and more precisely we will do with these functions:
     V = array
     eps = finfo(double).eps
 
-First we need to describe the problem world, i.e. we need to find
-the variables. By variable I mean the real thing here. A variable consists of values.
+First we need to describe the problem world, i.e. we need to find the variables.
+By variable I mean the real thing here. A variable consists of values.
 When using a value of a variable, then we do this via reference,
 more precisely via index into the list of values representing the variable.
 
-The following describes the system. I use captial letters for variables and
+The following describes the system. I use capital letters for variables and
 small letters for references to values of the variables. The names are short,
 one letter if possible. I take the first letter of the english word. N is Nodes,
 E is Edges, F is Forces, S is Support nodes. n, e, f and s reference values of these

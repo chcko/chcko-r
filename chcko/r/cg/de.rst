@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Vektoren/Transformation und Inverse"
+    %path = "Mathe/Vektoren/Transformation und Inverse"
     %kind = chindnum["Texte"]
     %level = 11
     <!-- html -->

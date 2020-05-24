@@ -119,7 +119,7 @@ and code a selection via 0 (not used) and 1 (used).
 One can do with less bits, if one first finds out, which elements
 exclude each other.
 
-A set one can choose one element exclusively we call variable.
+A set from which an element is chosen exclusively, is a variable.
 The element is the value.
 
 .. admonition:: Variable
@@ -130,8 +130,8 @@ With variable we mean the real thing, not a placeholder for a number.
 Only via a mapping, e.g. by comparing to a unit, the value is linked to a
 number (coordinate).
 
-Mathematics describes reality by finding variables and then dependencies
-between them.
+Mathematics describes reality by finding variables
+and then dependencies between them.
 
 Strukture
 .........
@@ -165,7 +165,7 @@ on, and thus extend the structure.
 Algorithmics
 ............
 
-To determine (choose) a value of a variable mathematics uses the **function**.
+To determine (choose) a value of a variable, mathematics uses the **function**.
 This is also the name in informatics, but with a slightly different meaning,
 Other names are subprogram, subroutine, procedure, ...
 
@@ -177,8 +177,8 @@ in the definition of the function.  A first selection process there is already
 when choosing the **actual parameters** to correspond to the formal ones when
 calling the function.
 
-Functions in programming languages do not necessarily return the value of a
-variable, but it is a good design to name variables and the elementary
+Functions in programming languages do not necessarily return the value of a variable,
+but it is a good design to name variables and the elementary
 dependencies via functions in order to clearly separate them from others.
 
 Functions consist of calls to other functions

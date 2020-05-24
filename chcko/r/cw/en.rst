@@ -7,12 +7,13 @@
 
 Complexity
 
-    To refer to a value of a variable one nees memory space.  If the value
-    (reference) can be calculated from (the values of) other variables then one
-    can do without that memory. This is why functions are important.
+    To refer to a value of a variable one needs memory space.
+    If the value (reference) can be calculated from (the values of) other variables,
+    then one can do without that memory.
+    This is why functions are important.
 
-    On the other hand one has to do calculations now to reference to the value
-    of the variable. This need time.
+    On the other hand one has to do calculations, now,
+    to reference to the value of the variable. This need time.
 
     **Complexity** is a meassure for the needed resources.
     If a lot of time is needed, then the time complexity is high.

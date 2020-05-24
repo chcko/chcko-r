@@ -5,28 +5,36 @@
     %level = 12
     <!-- html -->
 
+A system can be seen as one variable.
+A system *state* is a *value* of the variable.
 
-**Entropy** is the information in a system
-Entropy is the *number of states of the system*.
-What state means is of no importance.
+**Entropy** is the information of a variable.
+Entropy is the *number of values* of the variable.
+
+What value (or state) means is of no importance.
 It has been abstracted away.
 Only the number counts here.
 
-The states must actually occur, i.e. the system must change
-(information events).
-**Energy** is the *number of states per time*.
-Energy defines time by these changes.
+The values must actually occur.
+An elementary change is a value selection.
+**Energy** is the *number of values per time*.
 
 .. math::
 
         S = Et
+
+One can see it the other way around:
+Energy brings time into existence by the selections of values.
+If the system is composed of many independent variables,
+this produces a system time resolution,
+that does not exist in any of the independent variables.
 
 A constant amount of energy can either result in
 
 - a few states cycling fast: `\Delta S` and `\Delta t` small
 - a lot of states cycling slow: `\Delta S` and `\Delta t` large
 
-But a system consists of layers.
+A system often consists of layers.
 
 Assuming an ideal gas,
 the energy `Q=TS` is given by:
@@ -39,7 +47,7 @@ This divides the system in two layers:
 - `T` encodes information events (energy) of a layer below.
 - `S` counts the events in the current layer.
 
-The logarithm in entropy only comes up
+The logarithm in entropy comes up,
 when we distribute the information
 to more variables of the same kind (e.g. the bit).
 In the other direction this is the reason for the exponent `e^S`.

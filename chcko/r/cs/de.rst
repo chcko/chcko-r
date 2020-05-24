@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Morphismen"
+    %path = "Mathe/Morphismen"
     %kind = chindnum["Texte"]
     %level = 10
     <!-- html -->
@@ -25,7 +25,7 @@ je nach betrachteter Struktur gibt es Unterbegriffe (`f\circ g (D_g) = f(g(D_g))
   oder `f` injektiv für Mengen als Objekte
   (`Beweis <http://www.proofwiki.org/wiki/Injection_iff_Monomorphism_in_Category_of_Sets>`_)
 
-- Epimorphismus: `g\circ f=h \circ f \implies g=h` (rightkürzbar es `f`)
+- Epimorphismus: `g\circ f=h \circ f \implies g=h` (rechtskürzbares `f`)
   oder `f` surjektiv für Mengen als Objekte
   (`Beweis <http://www.proofwiki.org/wiki/Surjection_iff_Epimorphism_in_Category_of_Sets>`_)
 

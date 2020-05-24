@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Externe Links"
+    %path = "Mathe/Externe Links"
     %kind = chindnum["Texte"]
     %level = 0
     <!-- html -->

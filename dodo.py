@@ -19,7 +19,7 @@ Do this after any changes, especially in the main code::
 Do this to add new content, html or rst::
 
     $ doit -kd. new
-    $ doit -kd. rst
+    $ doit -kd. newrst
 
 task_included is internal.
 
@@ -36,4 +36,4 @@ task_included = doit_tasks.task_included
 task_html = doit_tasks.task_html
 task_initdb = doit_tasks.task_initdb
 task_new = doit_tasks.task_new
-task_rst = doit_tasks.task_rst
+task_newrst = doit_tasks.task_newrst

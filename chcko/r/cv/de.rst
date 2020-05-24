@@ -1,6 +1,6 @@
 .. raw:: html
 
-    %path = "Mathematik/Entropie"
+    %path = "Mathe/Entropie"
     %kind = chindnum["Texte"]
     %level = 12
     <!-- html -->
