@@ -48,7 +48,7 @@ Dies teilt das System in zwei Schichten:
 - `S` ist die Anzahl in der betrachteten Schicht.
 
 Der Logarithmus in der Entropie kommt davon,
-dass Information auf mehrere gleichartige Variablen verteilt wird (etwas Bit).
+dass Information auf mehrere gleichartige Variablen verteilt wird (etwa Bit).
 In der anderen Richtung folgt daraus der Exponent `e^S`.
 
 Die Richtung der Teilchenbewegung unterteilt die Anzahl `N` der Teilchen
