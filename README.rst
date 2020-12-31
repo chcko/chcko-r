@@ -1,9 +1,10 @@
 chko-r
 ======
 
-`chko-r`_ is an example content package for `chcko`_,
-a random mix of problems and texts,
-availabe at
+`chko-r`_ is an example content package and test data for `chcko`_.
+`chko-r`_ is a random mix of problems and texts.
+
+A live version is available at:
 
     https://chcko.eu
 

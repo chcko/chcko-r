@@ -2,13 +2,13 @@
 <%
 
 def circuitsvg():
-    import schemdraw as SchemDraw
-    from SchemDraw import elements as elm
-    from SchemDraw import logic
-    from SchemDraw import dsp
-    from SchemDraw import flow
+    import schemdraw
+    from schemdraw import elements as elm
+    from schemdraw import logic
+    from schemdraw import dsp
+    from schemdraw import flow
 
-    d = SchemDraw.Drawing()
+    d = schemdraw.Drawing()
     d.add(elm.DOT, lftlabel='$V_i$')
     d.add(elm.RES, d='right', label='$R_b$')
     Q1 = d.add(elm.BJT_NPN_C, label='$h_{fe}=%s$'%chiven.hfe)
@@ -24,13 +24,13 @@ def circuitsvg():
     d.add(elm.RES, xy=Q1.emitter, d='down', botlabel='$R_e=%s$'%P(chiven.Re))
     d.add(elm.GND)
 
-    d.draw(showplot=False)
+    ddraw = d.draw(show=False)
 
     from mpl_toolkits.axes_grid1.inset_locator import inset_axes
     from scipy import signal
     import matplotlib.pyplot as plt
     t = np.linspace(0, 1, 500, endpoint=False)
-    inset_axes(d.ax, width="20%", height="20%", loc=3)
+    inset_axes(ddraw.ax, width="20%", height="20%", loc=3)
     Vi = chiven.Vi.magnitude
     Vi2 = Vi/2
     plt.xticks([])
@@ -40,7 +40,7 @@ def circuitsvg():
 
     from io import StringIO
     sio = StringIO()
-    d.fig.savefig(sio,format='svg')
+    ddraw.fig.savefig(sio,format='svg')
     sio.seek(0)
     svgstr = sio.read()
     svgstr = '<svg style="float:left;margin:1em;" '+svgstr.split('<svg')[1]
